@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pokedex ptaków Polski</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="pokedex-shell">
+    <header class="hero">
+      <div class="hero-top">
+        <span class="pokedex-label">PTAKI</span>
+        <h1>Wyszponcone</h1>
+        <p class="hero-subtitle">Ptakszponting Kacpra</p>
+      </div>
+    </header>
+
+    <main class="container">
+    <section class="controls-panel">
+      <div class="control-group">
+        <label for="sortPrimary">Sortuj główne:</label>
+        <select id="sortPrimary">
+          <option value="polishName">Nazwa</option>
+          <option value="family">Rodzina</option>
+          <option value="rarity">Rzadkość</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label for="sortSecondary">Sortuj drugie:</label>
+        <select id="sortSecondary">
+          <option value="none">Brak</option>
+          <option value="polishName">Nazwa</option>
+          <option value="family">Rodzina</option>
+          <option value="rarity">Rzadkość</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label for="filterFamily">Filtr rodziny:</label>
+        <select id="filterFamily">
+          <option value="all">Wszystkie</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label for="filterType">Filtr typu:</label>
+        <select id="filterType">
+          <option value="all">Wszystkie</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label for="searchInput">Szukaj nazwy:</label>
+        <input id="searchInput" type="search" placeholder="np. jerzyk" />
+      </div>
+      <button id="resetButton" class="button-secondary">Resetuj stan znalezionych</button>
+      <div class="counter-display" aria-live="polite">
+        <span id="birdCounter">0 / 0 znalezionych</span>
+      </div>
+      <div class="pagination-controls">
+        <label>
+          Pokaż na stronie:
+          <select id="perPageSelect">
+            <option value="10">10</option>
+            <option value="25" selected>25</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+          </select>
+        </label>
+        <nav id="pagination" class="pagination" aria-label="Paginacja"></nav>
+      </div>
+    </section>
+
+    <section id="birdList" class="bird-grid" aria-live="polite"></section>
+  </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2/dist/fuse.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

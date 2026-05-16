@@ -1,0 +1,4030 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<birds>
+  <bird id="1">
+    <polishName>sterniczka</polishName>
+    <latinName>Oxyura leucocephala</latinName>
+    <family>Kaczkowate</family>
+    <rarity>2</rarity>
+    <type1>Woda</type1>
+    <type2>Grzebiący</type2>
+  </bird>
+  <bird id="2">
+    <polishName>łabędź niemy</polishName>
+    <latinName>Cygnus olor</latinName>
+    <family>Kaczkowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Bagno</type2>
+    <type3>Grzebiący</type3>
+  </bird>
+  <bird id="3">
+    <polishName>łabędź czarnodzioby</polishName>
+    <latinName>Cygnus columbianus</latinName>
+    <family>Kaczkowate</family>
+    <rarity>1</rarity>
+    <type1>Woda</type1>
+    <type2>Pole</type2>
+    <type3>Grzebiący</type3>
+  </bird>
+  <bird id="4">
+    <polishName>łabędź krzykliwy</polishName>
+    <latinName>Cygnus cygnus</latinName>
+    <family>Kaczkowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Pole</type2>
+    <type3>Grzebiący</type3>
+  </bird>
+  <bird id="5">
+    <polishName>bernikla obrożna</polishName>
+    <latinName>Branta bernicla</latinName>
+    <family>Kaczkowate</family>
+    <rarity>1</rarity>
+    <type1>Morze</type1>
+    <type2>Pole</type2>
+    <type3>Grzebiący</type3>
+  </bird>
+  <bird id="6">
+    <polishName>bernikla rdzawoszyja</polishName>
+    <latinName>Branta ruficollis</latinName>
+    <family>Kaczkowate</family>
+    <rarity>1</rarity>
+    <type1>Pole</type1>
+    <type2>Morze</type2>
+    <type3>Grzebiący</type3>
+  </bird>
+  <bird id="7">
+    <polishName>bernikla kanadyjska</polishName>
+    <latinName>Branta canadensis</latinName>
+    <family>Kaczkowate</family>
+    <rarity>1</rarity>
+    <type1>Woda</type1>
+    <type2>Pole</type2>
+    <type3>Grzebiący</type3>
+  </bird>
+  <bird id="8">
+    <polishName>bernikla białolica</polishName>
+    <latinName>Branta leucopsis</latinName>
+    <family>Kaczkowate</family>
+    <rarity>1</rarity>
+    <type1>Morze</type1>
+    <type2>Pole</type2>
+    <type3>Grzebiący</type3>
+  </bird>
+  <bird id="9">
+    <polishName>gęgawa</polishName>
+    <latinName>Anser anser</latinName>
+    <family>Kaczkowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Bagno</type2>
+    <type3>Grzebiący</type3>
+  </bird>
+  <bird id="10">
+    <polishName>gęś mała</polishName>
+    <latinName>Anser erythropus</latinName>
+    <family>Kaczkowate</family>
+    <rarity>1</rarity>
+    <type1>Pole</type1>
+    <type2>Grzebiący</type2>
+  </bird>
+  <bird id="11">
+    <polishName>gęś białoczelna</polishName>
+    <latinName>Anser albifrons</latinName>
+    <family>Kaczkowate</family>
+    <rarity>1</rarity>
+    <type1>Pole</type1>
+    <type2>Woda</type2>
+    <type3>Grzebiący</type3>
+  </bird>
+  <bird id="12">
+    <polishName>gęś tundrowa</polishName>
+    <latinName>Anser serrirostris</latinName>
+    <family>Kaczkowate</family>
+    <rarity>1</rarity>
+    <type1>Pole</type1>
+    <type2>Woda</type2>
+    <type3>Grzebiący</type3>
+  </bird>
+  <bird id="13">
+    <polishName>gęś krótkodzioba</polishName>
+    <latinName>Anser brachyrhynchus</latinName>
+    <family>Kaczkowate</family>
+    <rarity>1</rarity>
+    <type1>Pole</type1>
+    <type2>Woda</type2>
+    <type3>Grzebiący</type3>
+  </bird>
+  <bird id="14">
+    <polishName>gęś zbożowa</polishName>
+    <latinName>Anser fabalis</latinName>
+    <family>Kaczkowate</family>
+    <rarity>1</rarity>
+    <type1>Pole</type1>
+    <type2>Woda</type2>
+    <type3>Grzebiący</type3>
+  </bird>
+  <bird id="15">
+    <polishName>mandarynka</polishName>
+    <latinName>Aix galericulata</latinName>
+    <family>Kaczkowate</family>
+    <rarity>1</rarity>
+    <type1>Woda</type1>
+    <type2>Las</type2>
+    <type3>Grzebiący</type3>
+  </bird>
+  <bird id="16">
+    <polishName>gęsiówka egipska</polishName>
+    <latinName>Alopochen aegyptiaca</latinName>
+    <family>Kaczkowate</family>
+    <rarity>1</rarity>
+    <type1>Woda</type1>
+    <type2>Pole</type2>
+    <type3>Grzebiący</type3>
+  </bird>
+  <bird id="17">
+    <polishName>ohar</polishName>
+    <latinName>Tadorna tadorna</latinName>
+    <family>Kaczkowate</family>
+    <rarity>0</rarity>
+    <type1>Morze</type1>
+    <type2>Woda</type2>
+    <type3>Grzebiący</type3>
+  </bird>
+  <bird id="18">
+    <polishName>kazarka rdzawa</polishName>
+    <latinName>Tadorna ferruginea</latinName>
+    <family>Kaczkowate</family>
+    <rarity>1</rarity>
+    <type1>Woda</type1>
+    <type2>Pole</type2>
+    <type3>Grzebiący</type3>
+  </bird>
+  <bird id="19">
+    <polishName>lodówka</polishName>
+    <latinName>Clangula hyemalis</latinName>
+    <family>Kaczkowate</family>
+    <rarity>1</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="20">
+    <polishName>birginiak</polishName>
+    <latinName>Polysticta stelleri</latinName>
+    <family>Kaczkowate</family>
+    <rarity>2</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="21">
+    <polishName>turkan</polishName>
+    <latinName>Somateria spectabilis</latinName>
+    <family>Kaczkowate</family>
+    <rarity>2</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="22">
+    <polishName>edredon</polishName>
+    <latinName>Somateria mollissima</latinName>
+    <family>Kaczkowate</family>
+    <rarity>1</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="23">
+    <polishName>kamieniuszka</polishName>
+    <latinName>Histrionicus histrionicus</latinName>
+    <family>Kaczkowate</family>
+    <rarity>3</rarity>
+    <type1>Morze</type1>
+    <type2>Góry</type2>
+    <type3>Rybożerny</type3>
+  </bird>
+  <bird id="24">
+    <polishName>markaczka</polishName>
+    <latinName>Melanitta nigra</latinName>
+    <family>Kaczkowate</family>
+    <rarity>1</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="25">
+    <polishName>markaczka amerykańska</polishName>
+    <latinName>Melanitta americana</latinName>
+    <family>Kaczkowate</family>
+    <rarity>2</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="26">
+    <polishName>uhla</polishName>
+    <latinName>Melanitta fusca</latinName>
+    <family>Kaczkowate</family>
+    <rarity>1</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="27">
+    <polishName>uhla azjatycka</polishName>
+    <latinName>Melanitta stejnegeri</latinName>
+    <family>Kaczkowate</family>
+    <rarity>2</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="28">
+    <polishName>gągoł</polishName>
+    <latinName>Bucephala clangula</latinName>
+    <family>Kaczkowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Las</type2>
+    <type3>Rybożerny</type3>
+  </bird>
+  <bird id="29">
+    <polishName>bielaczek</polishName>
+    <latinName>Mergellus albellus</latinName>
+    <family>Kaczkowate</family>
+    <rarity>1</rarity>
+    <type1>Woda</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="30">
+    <polishName>szlachar</polishName>
+    <latinName>Mergus serrator</latinName>
+    <family>Kaczkowate</family>
+    <rarity>1</rarity>
+    <type1>Morze</type1>
+    <type2>Woda</type2>
+    <type3>Rybożerny</type3>
+  </bird>
+  <bird id="31">
+    <polishName>nurogęś</polishName>
+    <latinName>Mergus merganser</latinName>
+    <family>Kaczkowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Góry</type2>
+    <type3>Rybożerny</type3>
+  </bird>
+  <bird id="32">
+    <polishName>hełmiatka</polishName>
+    <latinName>Netta rufina</latinName>
+    <family>Kaczkowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Bagno</type2>
+    <type3>Grzebiący</type3>
+  </bird>
+  <bird id="33">
+    <polishName>podgorzałka</polishName>
+    <latinName>Aythya nyroca</latinName>
+    <family>Kaczkowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Bagno</type2>
+    <type3>Grzebiący</type3>
+  </bird>
+  <bird id="34">
+    <polishName>głowienka</polishName>
+    <latinName>Aythya ferina</latinName>
+    <family>Kaczkowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Grzebiący</type2>
+  </bird>
+  <bird id="35">
+    <polishName>czerniczka</polishName>
+    <latinName>Aythya collaris</latinName>
+    <family>Kaczkowate</family>
+    <rarity>2</rarity>
+    <type1>Woda</type1>
+    <type2>Grzebiący</type2>
+  </bird>
+  <bird id="36">
+    <polishName>czernica</polishName>
+    <latinName>Aythya fuligula</latinName>
+    <family>Kaczkowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Grzebiący</type2>
+  </bird>
+  <bird id="37">
+    <polishName>ogorzałka mała</polishName>
+    <latinName>Aythya affinis</latinName>
+    <family>Kaczkowate</family>
+    <rarity>3</rarity>
+    <type1>Woda</type1>
+    <type2>Grzebiący</type2>
+  </bird>
+  <bird id="38">
+    <polishName>ogorzałka</polishName>
+    <latinName>Aythya marila</latinName>
+    <family>Kaczkowate</family>
+    <rarity>1</rarity>
+    <type1>Morze</type1>
+    <type2>Woda</type2>
+    <type3>Grzebiący</type3>
+  </bird>
+  <bird id="39">
+    <polishName>bajkałówka</polishName>
+    <latinName>Sibirionetta formosa</latinName>
+    <family>Kaczkowate</family>
+    <rarity>3</rarity>
+    <type1>Woda</type1>
+    <type2>Grzebiący</type2>
+  </bird>
+  <bird id="40">
+    <polishName>cyranka</polishName>
+    <latinName>Spatula querquedula</latinName>
+    <family>Kaczkowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Bagno</type2>
+    <type3>Grzebiący</type3>
+  </bird>
+  <bird id="41">
+    <polishName>cyranka modroskrzydła</polishName>
+    <latinName>Spatula discors</latinName>
+    <family>Kaczkowate</family>
+    <rarity>3</rarity>
+    <type1>Woda</type1>
+    <type2>Grzebiący</type2>
+  </bird>
+  <bird id="42">
+    <polishName>płaskonos</polishName>
+    <latinName>Spatula clypeata</latinName>
+    <family>Kaczkowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Bagno</type2>
+    <type3>Grzebiący</type3>
+  </bird>
+  <bird id="43">
+    <polishName>krakwa</polishName>
+    <latinName>Mareca strepera</latinName>
+    <family>Kaczkowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Grzebiący</type2>
+  </bird>
+  <bird id="44">
+    <polishName>świstun</polishName>
+    <latinName>Mareca penelope</latinName>
+    <family>Kaczkowate</family>
+    <rarity>1</rarity>
+    <type1>Woda</type1>
+    <type2>Pole</type2>
+    <type3>Grzebiący</type3>
+  </bird>
+  <bird id="45">
+    <polishName>świstun amerykański</polishName>
+    <latinName>Mareca americana</latinName>
+    <family>Kaczkowate</family>
+    <rarity>2</rarity>
+    <type1>Woda</type1>
+    <type2>Grzebiący</type2>
+  </bird>
+  <bird id="46">
+    <polishName>krzyżówka</polishName>
+    <latinName>Anas platyrhynchos</latinName>
+    <family>Kaczkowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Bagno</type2>
+    <type3>Grzebiący</type3>
+  </bird>
+  <bird id="47">
+    <polishName>rożeniec</polishName>
+    <latinName>Anas acuta</latinName>
+    <family>Kaczkowate</family>
+    <rarity>1</rarity>
+    <type1>Woda</type1>
+    <type2>Grzebiący</type2>
+  </bird>
+  <bird id="48">
+    <polishName>cyraneczka</polishName>
+    <latinName>Anas crecca</latinName>
+    <family>Kaczkowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Bagno</type2>
+    <type3>Grzebiący</type3>
+  </bird>
+  <bird id="49">
+    <polishName>jarząbek</polishName>
+    <latinName>Tetrastes bonasia</latinName>
+    <family>Kurowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Grzebiący</type2>
+  </bird>
+  <bird id="50">
+    <polishName>pardwa mszarna</polishName>
+    <latinName>Lagopus lagopus</latinName>
+    <family>Kurowate</family>
+    <rarity>2</rarity>
+    <type1>Pole</type1>
+    <type2>Grzebiący</type2>
+  </bird>
+  <bird id="51">
+    <polishName>głuszec</polishName>
+    <latinName>Tetrao urogallus</latinName>
+    <family>Kurowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Grzebiący</type2>
+  </bird>
+  <bird id="52">
+    <polishName>cietrzew</polishName>
+    <latinName>Lyrurus tetrix</latinName>
+    <family>Kurowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Pole</type2>
+    <type3>Grzebiący</type3>
+  </bird>
+  <bird id="53">
+    <polishName>kuropatwa</polishName>
+    <latinName>Perdix perdix</latinName>
+    <family>Kurowate</family>
+    <rarity>0</rarity>
+    <type1>Pole</type1>
+    <type2>Grzebiący</type2>
+  </bird>
+  <bird id="54">
+    <polishName>bażant</polishName>
+    <latinName>Phasianus colchicus</latinName>
+    <family>Kurowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Pole</type2>
+    <type3>Grzebiący</type3>
+  </bird>
+  <bird id="55">
+    <polishName>przepiórka</polishName>
+    <latinName>Coturnix coturnix</latinName>
+    <family>Kurowate</family>
+    <rarity>0</rarity>
+    <type1>Pole</type1>
+    <type2>Grzebiący</type2>
+  </bird>
+  <bird id="56">
+    <polishName>flaming różowy</polishName>
+    <latinName>Phoenicopterus roseus</latinName>
+    <family>Flamingowate</family>
+    <rarity>2</rarity>
+    <type1>Bagno</type1>
+    <type2>Woda</type2>
+    <type3>Grzebiący</type3>
+  </bird>
+  <bird id="57">
+    <polishName>perkozek</polishName>
+    <latinName>Tachybaptus ruficollis</latinName>
+    <family>Perkozowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Bagno</type2>
+    <type3>Rybożerny</type3>
+  </bird>
+  <bird id="58">
+    <polishName>perkoz grubodzioby</polishName>
+    <latinName>Podilymbus podiceps</latinName>
+    <family>Perkozowate</family>
+    <rarity>3</rarity>
+    <type1>Woda</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="59">
+    <polishName>perkoz rogaty</polishName>
+    <latinName>Podiceps auritus</latinName>
+    <family>Perkozowate</family>
+    <rarity>1</rarity>
+    <type1>Woda</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="60">
+    <polishName>perkoz rdzawoszyi</polishName>
+    <latinName>Podiceps grisegena</latinName>
+    <family>Perkozowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="61">
+    <polishName>perkoz dwuczuby</polishName>
+    <latinName>Podiceps cristatus</latinName>
+    <family>Perkozowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="62">
+    <polishName>zausznik</polishName>
+    <latinName>Podiceps nigricollis</latinName>
+    <family>Perkozowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Bagno</type2>
+    <type3>Rybożerny</type3>
+  </bird>
+  <bird id="63">
+    <polishName>drop</polishName>
+    <latinName>Otis tarda</latinName>
+    <family>Dropowate</family>
+    <rarity>2</rarity>
+    <type1>Pole</type1>
+    <type2>Grzebiący</type2>
+  </bird>
+  <bird id="64">
+    <polishName>hubara arabska</polishName>
+    <latinName>Chlamydotis macqueenii</latinName>
+    <family>Dropowate</family>
+    <rarity>3</rarity>
+    <type1>Pole</type1>
+    <type2>Grzebiący</type2>
+  </bird>
+  <bird id="65">
+    <polishName>strepet</polishName>
+    <latinName>Tetrax tetrax</latinName>
+    <family>Dropowate</family>
+    <rarity>2</rarity>
+    <type1>Pole</type1>
+    <type2>Grzebiący</type2>
+  </bird>
+  <bird id="66">
+    <polishName>kukułka</polishName>
+    <latinName>Cuculus canorus</latinName>
+    <family>Kukułkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="67">
+    <polishName>pustynnik</polishName>
+    <latinName>Syrrhaptes paradoxus</latinName>
+    <family>Pustynnikowate</family>
+    <rarity>2</rarity>
+    <type1>Pole</type1>
+    <type2>Grzebiący</type2>
+  </bird>
+  <bird id="68">
+    <polishName>turkawka wschodnia</polishName>
+    <latinName>Streptopelia orientalis</latinName>
+    <family>Gołębiowate</family>
+    <rarity>3</rarity>
+    <type1>Las</type1>
+    <type2>Grzebiący</type2>
+  </bird>
+  <bird id="69">
+    <polishName>turkawka</polishName>
+    <latinName>Streptopelia turtur</latinName>
+    <family>Gołębiowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Pole</type2>
+    <type3>Ziarnojady</type3>
+  </bird>
+  <bird id="70">
+    <polishName>sierpówka</polishName>
+    <latinName>Streptopelia decaocto</latinName>
+    <family>Gołębiowate</family>
+    <rarity>0</rarity>
+    <type1>Miasto</type1>
+    <type2>Pole</type2>
+    <type3>Ziarnojady</type3>
+  </bird>
+  <bird id="71">
+    <polishName>grzywacz</polishName>
+    <latinName>Columba palumbus</latinName>
+    <family>Gołębiowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Ziarnojady</type2>
+  </bird>
+  <bird id="72">
+    <polishName>gołąb miejski</polishName>
+    <latinName>Columba livia forma urbana</latinName>
+    <family>Gołębiowate</family>
+    <rarity>0</rarity>
+    <type1>Miasto</type1>
+    <type2>Pole</type2>
+    <type3>Ziarnojady</type3>
+  </bird>
+  <bird id="73">
+    <polishName>siniak</polishName>
+    <latinName>Columba oenas</latinName>
+    <family>Gołębiowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Ziarnojady</type2>
+  </bird>
+  <bird id="74">
+    <polishName>żuraw kanadyjski</polishName>
+    <latinName>Antigone canadensis</latinName>
+    <family>Żurawiowate</family>
+    <rarity>3</rarity>
+    <type1>Bagno</type1>
+    <type2>Pole</type2>
+    <type3>Grzebiący</type3>
+  </bird>
+  <bird id="75">
+    <polishName>żuraw stepowy</polishName>
+    <latinName>Grus virgo</latinName>
+    <family>Żurawiowate</family>
+    <rarity>3</rarity>
+    <type1>Pole</type1>
+    <type2>Grzebiący</type2>
+  </bird>
+  <bird id="76">
+    <polishName>żuraw</polishName>
+    <latinName>Grus grus</latinName>
+    <family>Żurawiowate</family>
+    <rarity>0</rarity>
+    <type1>Bagno</type1>
+    <type2>Pole</type2>
+    <type3>Grzebiący</type3>
+  </bird>
+  <bird id="77">
+    <polishName>wodnik</polishName>
+    <latinName>Rallus aquaticus</latinName>
+    <family>Chruścielowate</family>
+    <rarity>0</rarity>
+    <type1>Trzcina</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="78">
+    <polishName>derkacz</polishName>
+    <latinName>Crex crex</latinName>
+    <family>Chruścielowate</family>
+    <rarity>0</rarity>
+    <type1>Pole</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="79">
+    <polishName>kropiatka</polishName>
+    <latinName>Porzana porzana</latinName>
+    <family>Chruścielowate</family>
+    <rarity>0</rarity>
+    <type1>Bagno</type1>
+    <type2>Trzcina</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="80">
+    <polishName>kokoszka</polishName>
+    <latinName>Gallinula chloropus</latinName>
+    <family>Chruścielowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="81">
+    <polishName>łyska</polishName>
+    <latinName>Fulica atra</latinName>
+    <family>Chruścielowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Bagno</type2>
+    <type3>Grzebiący</type3>
+  </bird>
+  <bird id="82">
+    <polishName>zielonka</polishName>
+    <latinName>Zapornia parva</latinName>
+    <family>Chruścielowate</family>
+    <rarity>0</rarity>
+    <type1>Trzcina</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="83">
+    <polishName>karliczka</polishName>
+    <latinName>Zapornia pusilla</latinName>
+    <family>Chruścielowate</family>
+    <rarity>1</rarity>
+    <type1>Trzcina</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="84">
+    <polishName>kulon</polishName>
+    <latinName>Burhinus oedicnemus</latinName>
+    <family>Kulonowate</family>
+    <rarity>2</rarity>
+    <type1>Pole</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="85">
+    <polishName>szablodziób</polishName>
+    <latinName>Recurvirostra avosetta</latinName>
+    <family>Szczudłakowate</family>
+    <rarity>1</rarity>
+    <type1>Bagno</type1>
+    <type2>Woda</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="86">
+    <polishName>szczudłak</polishName>
+    <latinName>Himantopus himantopus</latinName>
+    <family>Szczudłakowate</family>
+    <rarity>1</rarity>
+    <type1>Bagno</type1>
+    <type2>Woda</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="87">
+    <polishName>ostrygojad</polishName>
+    <latinName>Haematopus ostralegus</latinName>
+    <family>Ostrygojadowate</family>
+    <rarity>1</rarity>
+    <type1>Morze</type1>
+    <type2>Woda</type2>
+    <type3>Rybożerny</type3>
+  </bird>
+  <bird id="88">
+    <polishName>siewnica</polishName>
+    <latinName>Pluvialis squatarola</latinName>
+    <family>Siewkowate</family>
+    <rarity>1</rarity>
+    <type1>Pole</type1>
+    <type2>Woda</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="89">
+    <polishName>siewka złota</polishName>
+    <latinName>Pluvialis apricaria</latinName>
+    <family>Siewkowate</family>
+    <rarity>1</rarity>
+    <type1>Pole</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="90">
+    <polishName>siewka szara</polishName>
+    <latinName>Pluvialis dominica</latinName>
+    <family>Siewkowate</family>
+    <rarity>2</rarity>
+    <type1>Pole</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="91">
+    <polishName>siewka złotawa</polishName>
+    <latinName>Pluvialis fulva</latinName>
+    <family>Siewkowate</family>
+    <rarity>2</rarity>
+    <type1>Pole</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="92">
+    <polishName>mornel</polishName>
+    <latinName>Eudromias morinellus</latinName>
+    <family>Siewkowate</family>
+    <rarity>1</rarity>
+    <type1>Góry</type1>
+    <type2>Pole</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="93">
+    <polishName>sieweczka obrożna</polishName>
+    <latinName>Charadrius hiaticula</latinName>
+    <family>Siewkowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Morze</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="94">
+    <polishName>sieweczka rzeczna</polishName>
+    <latinName>Thinornis dubius</latinName>
+    <family>Siewkowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="95">
+    <polishName>czajka</polishName>
+    <latinName>Vanellus vanellus</latinName>
+    <family>Siewkowate</family>
+    <rarity>0</rarity>
+    <type1>Pole</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="96">
+    <polishName>czajka szponiasta</polishName>
+    <latinName>Vanellus spinosus</latinName>
+    <family>Siewkowate</family>
+    <rarity>3</rarity>
+    <type1>Bagno</type1>
+    <type2>Pole</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="97">
+    <polishName>czajka towarzyska</polishName>
+    <latinName>Vanellus gregarius</latinName>
+    <family>Siewkowate</family>
+    <rarity>2</rarity>
+    <type1>Pole</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="98">
+    <polishName>czajka stepowa</polishName>
+    <latinName>Vanellus leucurus</latinName>
+    <family>Siewkowate</family>
+    <rarity>2</rarity>
+    <type1>Pole</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="99">
+    <polishName>sieweczka długonoga</polishName>
+    <latinName>Anarhynchus asiaticus</latinName>
+    <family>Siewkowate</family>
+    <rarity>3</rarity>
+    <type1>Bagno</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="100">
+    <polishName>sieweczka tybetańska</polishName>
+    <latinName>Anarhynchus atrifrons</latinName>
+    <family>Siewkowate</family>
+    <rarity>3</rarity>
+    <type1>Góry</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="101">
+    <polishName>sieweczka pustynna</polishName>
+    <latinName>Anarhynchus leschenaultii</latinName>
+    <family>Siewkowate</family>
+    <rarity>2</rarity>
+    <type1>Pole</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="102">
+    <polishName>sieweczka morska</polishName>
+    <latinName>Anarhynchus alexandrinus</latinName>
+    <family>Siewkowate</family>
+    <rarity>1</rarity>
+    <type1>Morze</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="103">
+    <polishName>kulik mniejszy</polishName>
+    <latinName>Numenius phaeopus</latinName>
+    <family>Bekasowate</family>
+    <rarity>1</rarity>
+    <type1>Bagno</type1>
+    <type2>Woda</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="104">
+    <polishName>kulik cienkodzioby</polishName>
+    <latinName>Numenius tenuirostris</latinName>
+    <family>Bekasowate</family>
+    <rarity>3</rarity>
+    <type1>Bagno</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="105">
+    <polishName>kulik wielki</polishName>
+    <latinName>Numenius arquata</latinName>
+    <family>Bekasowate</family>
+    <rarity>0</rarity>
+    <type1>Pole</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="106">
+    <polishName>szlamnik</polishName>
+    <latinName>Limosa lapponica</latinName>
+    <family>Bekasowate</family>
+    <rarity>1</rarity>
+    <type1>Morze</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="107">
+    <polishName>rycyk</polishName>
+    <latinName>Limosa limosa</latinName>
+    <family>Bekasowate</family>
+    <rarity>0</rarity>
+    <type1>Bagno</type1>
+    <type2>Pole</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="108">
+    <polishName>szlamiec długodzioby</polishName>
+    <latinName>Limnodromus scolopaceus</latinName>
+    <family>Bekasowate</family>
+    <rarity>2</rarity>
+    <type1>Bagno</type1>
+    <type2>Woda</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="109">
+    <polishName>bekasik</polishName>
+    <latinName>Lymnocryptes minimus</latinName>
+    <family>Bekasowate</family>
+    <rarity>1</rarity>
+    <type1>Bagno</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="110">
+    <polishName>słonka</polishName>
+    <latinName>Scolopax rusticola</latinName>
+    <family>Bekasowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="111">
+    <polishName>dubelt</polishName>
+    <latinName>Gallinago media</latinName>
+    <family>Bekasowate</family>
+    <rarity>0</rarity>
+    <type1>Bagno</type1>
+    <type2>Pole</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="112">
+    <polishName>kszyk</polishName>
+    <latinName>Gallinago gallinago</latinName>
+    <family>Bekasowate</family>
+    <rarity>0</rarity>
+    <type1>Bagno</type1>
+    <type2>Pole</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="113">
+    <polishName>terekia</polishName>
+    <latinName>Xenus cinereus</latinName>
+    <family>Bekasowate</family>
+    <rarity>2</rarity>
+    <type1>Woda</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="114">
+    <polishName>brodziec piskliwy</polishName>
+    <latinName>Actitis hypoleucos</latinName>
+    <family>Bekasowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="115">
+    <polishName>brodziec plamisty</polishName>
+    <latinName>Actitis macularius</latinName>
+    <family>Bekasowate</family>
+    <rarity>2</rarity>
+    <type1>Woda</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="116">
+    <polishName>płatkonóg płaskodzioby</polishName>
+    <latinName>Phalaropus fulicarius</latinName>
+    <family>Bekasowate</family>
+    <rarity>2</rarity>
+    <type1>Morze</type1>
+    <type2>Woda</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="117">
+    <polishName>płatkonóg szydłodzioby</polishName>
+    <latinName>Phalaropus lobatus</latinName>
+    <family>Bekasowate</family>
+    <rarity>1</rarity>
+    <type1>Woda</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="118">
+    <polishName>samotnik</polishName>
+    <latinName>Tringa ochropus</latinName>
+    <family>Bekasowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Las</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="119">
+    <polishName>brodziec pławny</polishName>
+    <latinName>Tringa stagnatilis</latinName>
+    <family>Bekasowate</family>
+    <rarity>1</rarity>
+    <type1>Bagno</type1>
+    <type2>Woda</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="120">
+    <polishName>łęczak</polishName>
+    <latinName>Tringa glareola</latinName>
+    <family>Bekasowate</family>
+    <rarity>1</rarity>
+    <type1>Bagno</type1>
+    <type2>Woda</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="121">
+    <polishName>krwawodziób</polishName>
+    <latinName>Tringa totanus</latinName>
+    <family>Bekasowate</family>
+    <rarity>0</rarity>
+    <type1>Bagno</type1>
+    <type2>Morze</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="122">
+    <polishName>brodziec żółtonogi</polishName>
+    <latinName>Tringa flavipes</latinName>
+    <family>Bekasowate</family>
+    <rarity>3</rarity>
+    <type1>Bagno</type1>
+    <type2>Woda</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="123">
+    <polishName>brodziec śniady</polishName>
+    <latinName>Tringa erythropus</latinName>
+    <family>Bekasowate</family>
+    <rarity>1</rarity>
+    <type1>Bagno</type1>
+    <type2>Woda</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="124">
+    <polishName>kwokacz</polishName>
+    <latinName>Tringa nebularia</latinName>
+    <family>Bekasowate</family>
+    <rarity>1</rarity>
+    <type1>Bagno</type1>
+    <type2>Woda</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="125">
+    <polishName>brodziec piegowaty</polishName>
+    <latinName>Tringa melanoleuca</latinName>
+    <family>Bekasowate</family>
+    <rarity>3</rarity>
+    <type1>Bagno</type1>
+    <type2>Woda</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="126">
+    <polishName>kamusznik</polishName>
+    <latinName>Arenaria interpres</latinName>
+    <family>Bekasowate</family>
+    <rarity>1</rarity>
+    <type1>Morze</type1>
+    <type2>Woda</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="127">
+    <polishName>biegus rdzawy</polishName>
+    <latinName>Calidris canutus</latinName>
+    <family>Bekasowate</family>
+    <rarity>1</rarity>
+    <type1>Morze</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="128">
+    <polishName>biegus wielki</polishName>
+    <latinName>Calidris tenuirostris</latinName>
+    <family>Bekasowate</family>
+    <rarity>3</rarity>
+    <type1>Morze</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="129">
+    <polishName>batalion</polishName>
+    <latinName>Calidris pugnax</latinName>
+    <family>Bekasowate</family>
+    <rarity>1</rarity>
+    <type1>Bagno</type1>
+    <type2>Pole</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="130">
+    <polishName>biegus ostrosterny</polishName>
+    <latinName>Calidris acuminata</latinName>
+    <family>Bekasowate</family>
+    <rarity>3</rarity>
+    <type1>Bagno</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="131">
+    <polishName>biegus płaskodzioby</polishName>
+    <latinName>Calidris falcinellus</latinName>
+    <family>Bekasowate</family>
+    <rarity>1</rarity>
+    <type1>Bagno</type1>
+    <type2>Morze</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="132">
+    <polishName>biegus krzywodzioby</polishName>
+    <latinName>Calidris ferruginea</latinName>
+    <family>Bekasowate</family>
+    <rarity>1</rarity>
+    <type1>Bagno</type1>
+    <type2>Morze</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="133">
+    <polishName>biegus mały</polishName>
+    <latinName>Calidris temminckii</latinName>
+    <family>Bekasowate</family>
+    <rarity>1</rarity>
+    <type1>Bagno</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="134">
+    <polishName>biegus płowy</polishName>
+    <latinName>Calidris subruficollis</latinName>
+    <family>Bekasowate</family>
+    <rarity>2</rarity>
+    <type1>Pole</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="135">
+    <polishName>piaskowiec</polishName>
+    <latinName>Calidris alba</latinName>
+    <family>Bekasowate</family>
+    <rarity>1</rarity>
+    <type1>Morze</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="136">
+    <polishName>biegus zmienny</polishName>
+    <latinName>Calidris alpina</latinName>
+    <family>Bekasowate</family>
+    <rarity>1</rarity>
+    <type1>Morze</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="137">
+    <polishName>biegus morski</polishName>
+    <latinName>Calidris maritima</latinName>
+    <family>Bekasowate</family>
+    <rarity>2</rarity>
+    <type1>Morze</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="138">
+    <polishName>biegus długoskrzydły</polishName>
+    <latinName>Calidris bairdii</latinName>
+    <family>Bekasowate</family>
+    <rarity>3</rarity>
+    <type1>Bagno</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="139">
+    <polishName>biegus arktyczny</polishName>
+    <latinName>Calidris melanotos</latinName>
+    <family>Bekasowate</family>
+    <rarity>2</rarity>
+    <type1>Bagno</type1>
+    <type2>Pole</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="140">
+    <polishName>biegus tundrowy</polishName>
+    <latinName>Calidris pusilla</latinName>
+    <family>Bekasowate</family>
+    <rarity>3</rarity>
+    <type1>Bagno</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="141">
+    <polishName>biegus malutki</polishName>
+    <latinName>Calidris minuta</latinName>
+    <family>Bekasowate</family>
+    <rarity>1</rarity>
+    <type1>Bagno</type1>
+    <type2>Morze</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="142">
+    <polishName>biegus karłowaty</polishName>
+    <latinName>Calidris minutilla</latinName>
+    <family>Bekasowate</family>
+    <rarity>3</rarity>
+    <type1>Bagno</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="143">
+    <polishName>biegus białorzytny</polishName>
+    <latinName>Calidris fuscicollis</latinName>
+    <family>Bekasowate</family>
+    <rarity>2</rarity>
+    <type1>Bagno</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="144">
+    <polishName>żwirowiec stepowy</polishName>
+    <latinName>Glareola nordmanni</latinName>
+    <family>Żwirowcowate</family>
+    <rarity>2</rarity>
+    <type1>Pole</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="145">
+    <polishName>żwirowiec łąkowy</polishName>
+    <latinName>Glareola pratincola</latinName>
+    <family>Żwirowcowate</family>
+    <rarity>2</rarity>
+    <type1>Pole</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="146">
+    <polishName>wydrzyk ostrosterny</polishName>
+    <latinName>Stercorarius parasiticus</latinName>
+    <family>Wydrzyki</family>
+    <rarity>1</rarity>
+    <type1>Morze</type1>
+    <type2>Drapieżnik</type2>
+  </bird>
+  <bird id="147">
+    <polishName>wydrzyk długosterny</polishName>
+    <latinName>Stercorarius longicaudus</latinName>
+    <family>Wydrzyki</family>
+    <rarity>2</rarity>
+    <type1>Morze</type1>
+    <type2>Drapieżnik</type2>
+  </bird>
+  <bird id="148">
+    <polishName>wydrzyk tęposterny</polishName>
+    <latinName>Stercorarius pomarinus</latinName>
+    <family>Wydrzyki</family>
+    <rarity>2</rarity>
+    <type1>Morze</type1>
+    <type2>Drapieżnik</type2>
+  </bird>
+  <bird id="149">
+    <polishName>wydrzyk wielki</polishName>
+    <latinName>Stercorarius skua</latinName>
+    <family>Wydrzyki</family>
+    <rarity>2</rarity>
+    <type1>Morze</type1>
+    <type2>Drapieżnik</type2>
+  </bird>
+  <bird id="150">
+    <polishName>maskonur</polishName>
+    <latinName>Fratercula arctica</latinName>
+    <family>Alkowate</family>
+    <rarity>2</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="151">
+    <polishName>nurnik</polishName>
+    <latinName>Cepphus grylle</latinName>
+    <family>Alkowate</family>
+    <rarity>1</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="152">
+    <polishName>alka</polishName>
+    <latinName>Alca torda</latinName>
+    <family>Alkowate</family>
+    <rarity>1</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="153">
+    <polishName>alczyk</polishName>
+    <latinName>Alle alle</latinName>
+    <family>Alkowate</family>
+    <rarity>2</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="154">
+    <polishName>nurzyk polarny</polishName>
+    <latinName>Uria lomvia</latinName>
+    <family>Alkowate</family>
+    <rarity>3</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="155">
+    <polishName>nurzyk</polishName>
+    <latinName>Uria aalge</latinName>
+    <family>Alkowate</family>
+    <rarity>1</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="156">
+    <polishName>rybitwa białoczelna</polishName>
+    <latinName>Sternula albifrons</latinName>
+    <family>Mewowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Morze</type2>
+    <type3>Rybożerny</type3>
+  </bird>
+  <bird id="157">
+    <polishName>rybitwa wielkodzioba</polishName>
+    <latinName>Hydroprogne caspia</latinName>
+    <family>Mewowate</family>
+    <rarity>1</rarity>
+    <type1>Woda</type1>
+    <type2>Morze</type2>
+    <type3>Rybożerny</type3>
+  </bird>
+  <bird id="158">
+    <polishName>rybitwa krótkodzioba</polishName>
+    <latinName>Gelochelidon nilotica</latinName>
+    <family>Mewowate</family>
+    <rarity>2</rarity>
+    <type1>Bagno</type1>
+    <type2>Woda</type2>
+    <type3>Rybożerny</type3>
+  </bird>
+  <bird id="159">
+    <polishName>rybitwa białowąsa</polishName>
+    <latinName>Chlidonias hybrida</latinName>
+    <family>Mewowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Bagno</type2>
+    <type3>Rybożerny</type3>
+  </bird>
+  <bird id="160">
+    <polishName>rybitwa białoskrzydła</polishName>
+    <latinName>Chlidonias leucopterus</latinName>
+    <family>Mewowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Bagno</type2>
+    <type3>Rybożerny</type3>
+  </bird>
+  <bird id="161">
+    <polishName>rybitwa czarna</polishName>
+    <latinName>Chlidonias niger</latinName>
+    <family>Mewowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Bagno</type2>
+    <type3>Rybożerny</type3>
+  </bird>
+  <bird id="162">
+    <polishName>rybitwa czubata</polishName>
+    <latinName>Thalasseus sandvicensis</latinName>
+    <family>Mewowate</family>
+    <rarity>0</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="163">
+    <polishName>rybitwa popielata</polishName>
+    <latinName>Sterna paradisaea</latinName>
+    <family>Mewowate</family>
+    <rarity>1</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="164">
+    <polishName>rybitwa rzeczna</polishName>
+    <latinName>Sterna hirundo</latinName>
+    <family>Mewowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="165">
+    <polishName>rybitwa różowa</polishName>
+    <latinName>Sterna dougallii</latinName>
+    <family>Mewowate</family>
+    <rarity>3</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="166">
+    <polishName>mewa mała</polishName>
+    <latinName>Hydrocoloeus minutus</latinName>
+    <family>Mewowate</family>
+    <rarity>1</rarity>
+    <type1>Woda</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="167">
+    <polishName>mewa różowa</polishName>
+    <latinName>Rhodostethia rosea</latinName>
+    <family>Mewowate</family>
+    <rarity>3</rarity>
+    <type1>Morze</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="168">
+    <polishName>mewa trójpalczasta</polishName>
+    <latinName>Rissa tridactyla</latinName>
+    <family>Mewowate</family>
+    <rarity>1</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="169">
+    <polishName>mewa obrożna</polishName>
+    <latinName>Xema sabini</latinName>
+    <family>Mewowate</family>
+    <rarity>2</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="170">
+    <polishName>mewa modrodzioba</polishName>
+    <latinName>Pagophila eburnea</latinName>
+    <family>Mewowate</family>
+    <rarity>3</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="171">
+    <polishName>mewa cienkodzioba</polishName>
+    <latinName>Chroicocephalus genei</latinName>
+    <family>Mewowate</family>
+    <rarity>2</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="172">
+    <polishName>śmieszka</polishName>
+    <latinName>Chroicocephalus ridibundus</latinName>
+    <family>Mewowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="173">
+    <polishName>mewa karaibska</polishName>
+    <latinName>Leucophaeus atricilla</latinName>
+    <family>Mewowate</family>
+    <rarity>3</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="174">
+    <polishName>orlica</polishName>
+    <latinName>Ichthyaetus ichthyaetus</latinName>
+    <family>Mewowate</family>
+    <rarity>2</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="175">
+    <polishName>mewa śródziemnomorska</polishName>
+    <latinName>Ichthyaetus audouinii</latinName>
+    <family>Mewowate</family>
+    <rarity>3</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="176">
+    <polishName>mewa czarnogłowa</polishName>
+    <latinName>Ichthyaetus melanocephalus</latinName>
+    <family>Mewowate</family>
+    <rarity>1</rarity>
+    <type1>Morze</type1>
+    <type2>Woda</type2>
+    <type3>Rybożerny</type3>
+  </bird>
+  <bird id="177">
+    <polishName>mewa delawarska</polishName>
+    <latinName>Larus delawarensis</latinName>
+    <family>Mewowate</family>
+    <rarity>2</rarity>
+    <type1>Morze</type1>
+    <type2>Woda</type2>
+    <type3>Rybożerny</type3>
+  </bird>
+  <bird id="178">
+    <polishName>mewa siwa</polishName>
+    <latinName>Larus canus</latinName>
+    <family>Mewowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Morze</type2>
+    <type3>Rybożerny</type3>
+  </bird>
+  <bird id="179">
+    <polishName>mewa białogłowa</polishName>
+    <latinName>Larus cachinnans</latinName>
+    <family>Mewowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="180">
+    <polishName>mewa popielata</polishName>
+    <latinName>Larus smithsonianus</latinName>
+    <family>Mewowate</family>
+    <rarity>3</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="181">
+    <polishName>mewa srebrzysta</polishName>
+    <latinName>Larus argentatus</latinName>
+    <family>Mewowate</family>
+    <rarity>0</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="182">
+    <polishName>mewa romańska</polishName>
+    <latinName>Larus michahellis</latinName>
+    <family>Mewowate</family>
+    <rarity>1</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="183">
+    <polishName>mewa siodłata</polishName>
+    <latinName>Larus marinus</latinName>
+    <family>Mewowate</family>
+    <rarity>1</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="184">
+    <polishName>mewa blada</polishName>
+    <latinName>Larus hyperboreus</latinName>
+    <family>Mewowate</family>
+    <rarity>2</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="185">
+    <polishName>mewa żółtonoga</polishName>
+    <latinName>Larus fuscus</latinName>
+    <family>Mewowate</family>
+    <rarity>1</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="186">
+    <polishName>mewa ochocka</polishName>
+    <latinName>Larus schistisagus</latinName>
+    <family>Mewowate</family>
+    <rarity>3</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="187">
+    <polishName>mewa polarna</polishName>
+    <latinName>Larus glaucoides</latinName>
+    <family>Mewowate</family>
+    <rarity>2</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="188">
+    <polishName>nur rdzawoszyi</polishName>
+    <latinName>Gavia stellata</latinName>
+    <family>Nurowate</family>
+    <rarity>1</rarity>
+    <type1>Woda</type1>
+    <type2>Morze</type2>
+    <type3>Rybożerny</type3>
+  </bird>
+  <bird id="189">
+    <polishName>lodowiec</polishName>
+    <latinName>Gavia immer</latinName>
+    <family>Nurowate</family>
+    <rarity>2</rarity>
+    <type1>Morze</type1>
+    <type2>Woda</type2>
+    <type3>Rybożerny</type3>
+  </bird>
+  <bird id="190">
+    <polishName>nur białodzioby</polishName>
+    <latinName>Gavia adamsii</latinName>
+    <family>Nurowate</family>
+    <rarity>2</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="191">
+    <polishName>nur pacyficzny</polishName>
+    <latinName>Gavia pacifica</latinName>
+    <family>Nurowate</family>
+    <rarity>3</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="192">
+    <polishName>nur czarnoszyi</polishName>
+    <latinName>Gavia arctica</latinName>
+    <family>Nurowate</family>
+    <rarity>1</rarity>
+    <type1>Woda</type1>
+    <type2>Morze</type2>
+    <type3>Rybożerny</type3>
+  </bird>
+  <bird id="193">
+    <polishName>nawałnik burzowy</polishName>
+    <latinName>Hydrobates pelagicus</latinName>
+    <family>Nawałnikowate</family>
+    <rarity>2</rarity>
+    <type1>Morze</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="194">
+    <polishName>nawałnik duży</polishName>
+    <latinName>Hydrobates leucorhous</latinName>
+    <family>Nawałnikowate</family>
+    <rarity>2</rarity>
+    <type1>Morze</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="195">
+    <polishName>fulmar</polishName>
+    <latinName>Fulmarus glacialis</latinName>
+    <family>Burzykowate</family>
+    <rarity>2</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="196">
+    <polishName>burzyk żółtodzioby</polishName>
+    <latinName>Calonectris diomedea</latinName>
+    <family>Burzykowate</family>
+    <rarity>3</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="197">
+    <polishName>burzyk szary</polishName>
+    <latinName>Ardenna grisea</latinName>
+    <family>Burzykowate</family>
+    <rarity>2</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="198">
+    <polishName>burzyk północny</polishName>
+    <latinName>Puffinus puffinus</latinName>
+    <family>Burzykowate</family>
+    <rarity>3</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="199">
+    <polishName>burzyk śródziemnomorski</polishName>
+    <latinName>Puffinus yelkouan</latinName>
+    <family>Burzykowate</family>
+    <rarity>3</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="200">
+    <polishName>bocian czarny</polishName>
+    <latinName>Ciconia nigra</latinName>
+    <family>Bocianowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Woda</type2>
+    <type3>Rybożerny</type3>
+  </bird>
+  <bird id="201">
+    <polishName>bocian biały</polishName>
+    <latinName>Ciconia ciconia</latinName>
+    <family>Bocianowate</family>
+    <rarity>0</rarity>
+    <type1>Pole</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="202">
+    <polishName>głuptak</polishName>
+    <latinName>Morus bassanus</latinName>
+    <family>Głuptakowate</family>
+    <rarity>2</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="203">
+    <polishName>głuptak białobrzuchy</polishName>
+    <latinName>Sula leucogaster</latinName>
+    <family>Głuptakowate</family>
+    <rarity>3</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="204">
+    <polishName>kormoran mały</polishName>
+    <latinName>Microcarbo pygmaeus</latinName>
+    <family>Kormoranowate</family>
+    <rarity>1</rarity>
+    <type1>Woda</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="205">
+    <polishName>kormoran czubaty</polishName>
+    <latinName>Gulosus aristotelis</latinName>
+    <family>Kormoranowate</family>
+    <rarity>3</rarity>
+    <type1>Morze</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="206">
+    <polishName>kormoran</polishName>
+    <latinName>Phalacrocorax carbo</latinName>
+    <family>Kormoranowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="207">
+    <polishName>ibis kasztanowaty</polishName>
+    <latinName>Plegadis falcinellus</latinName>
+    <family>Ibisowate</family>
+    <rarity>2</rarity>
+    <type1>Bagno</type1>
+    <type2>Woda</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="208">
+    <polishName>warzęcha</polishName>
+    <latinName>Platalea leucorodia</latinName>
+    <family>Ibisowate</family>
+    <rarity>2</rarity>
+    <type1>Bagno</type1>
+    <type2>Woda</type2>
+    <type3>Rybożerny</type3>
+  </bird>
+  <bird id="209">
+    <polishName>pelikan różowy</polishName>
+    <latinName>Pelecanus onocrotalus</latinName>
+    <family>Pelikanowate</family>
+    <rarity>2</rarity>
+    <type1>Woda</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="210">
+    <polishName>pelikan kędzierzawy</polishName>
+    <latinName>Pelecanus crispus</latinName>
+    <family>Pelikanowate</family>
+    <rarity>2</rarity>
+    <type1>Woda</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="211">
+    <polishName>bąk</polishName>
+    <latinName>Botaurus stellaris</latinName>
+    <family>Czaplowate</family>
+    <rarity>0</rarity>
+    <type1>Trzcina</type1>
+    <type2>Bagno</type2>
+    <type3>Rybożerny</type3>
+  </bird>
+  <bird id="212">
+    <polishName>bączek</polishName>
+    <latinName>Botaurus minutus</latinName>
+    <family>Czaplowate</family>
+    <rarity>0</rarity>
+    <type1>Trzcina</type1>
+    <type2>Bagno</type2>
+    <type3>Rybożerny</type3>
+  </bird>
+  <bird id="213">
+    <polishName>czapla nadobna</polishName>
+    <latinName>Egretta garzetta</latinName>
+    <family>Czaplowate</family>
+    <rarity>1</rarity>
+    <type1>Woda</type1>
+    <type2>Bagno</type2>
+    <type3>Rybożerny</type3>
+  </bird>
+  <bird id="214">
+    <polishName>ślepowron</polishName>
+    <latinName>Nycticorax nycticorax</latinName>
+    <family>Czaplowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Bagno</type2>
+    <type3>Rybożerny</type3>
+  </bird>
+  <bird id="215">
+    <polishName>czapla modronosa</polishName>
+    <latinName>Ardeola ralloides</latinName>
+    <family>Czaplowate</family>
+    <rarity>2</rarity>
+    <type1>Bagno</type1>
+    <type2>Woda</type2>
+    <type3>Rybożerny</type3>
+  </bird>
+  <bird id="216">
+    <polishName>czapla biała</polishName>
+    <latinName>Ardea alba</latinName>
+    <family>Czaplowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Bagno</type2>
+    <type3>Rybożerny</type3>
+  </bird>
+  <bird id="217">
+    <polishName>czapla złotawa</polishName>
+    <latinName>Ardea ibis</latinName>
+    <family>Czaplowate</family>
+    <rarity>2</rarity>
+    <type1>Pole</type1>
+    <type2>Woda</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="218">
+    <polishName>czapla purpurowa</polishName>
+    <latinName>Ardea purpurea</latinName>
+    <family>Czaplowate</family>
+    <rarity>1</rarity>
+    <type1>Bagno</type1>
+    <type2>Woda</type2>
+    <type3>Rybożerny</type3>
+  </bird>
+  <bird id="219">
+    <polishName>czapla siwa</polishName>
+    <latinName>Ardea cinerea</latinName>
+    <family>Czaplowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Bagno</type2>
+    <type3>Rybożerny</type3>
+  </bird>
+  <bird id="220">
+    <polishName>lelek</polishName>
+    <latinName>Caprimulgus europaeus</latinName>
+    <family>Lelkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="221">
+    <polishName>jerzyk alpejski</polishName>
+    <latinName>Tachymarptis melba</latinName>
+    <family>Jerzykowate</family>
+    <rarity>2</rarity>
+    <type1>Góry</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="222">
+    <polishName>jerzyk</polishName>
+    <latinName>Apus apus</latinName>
+    <family>Jerzykowate</family>
+    <rarity>0</rarity>
+    <type1>Miasto</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="223">
+    <polishName>jerzyk blady</polishName>
+    <latinName>Apus pallidus</latinName>
+    <family>Jerzykowate</family>
+    <rarity>2</rarity>
+    <type1>Miasto</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="224">
+    <polishName>płomykówka</polishName>
+    <latinName>Tyto alba</latinName>
+    <family>Płomykówkowate</family>
+    <rarity>0</rarity>
+    <type1>Pole</type1>
+    <type2>Las</type2>
+    <type3>Drapieżnik</type3>
+  </bird>
+  <bird id="225">
+    <polishName>włochatka</polishName>
+    <latinName>Aegolius funereus</latinName>
+    <family>Sówkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Góry</type2>
+    <type3>Drapieżnik</type3>
+  </bird>
+  <bird id="226">
+    <polishName>pójdźka</polishName>
+    <latinName>Athene noctua</latinName>
+    <family>Sówkowate</family>
+    <rarity>0</rarity>
+    <type1>Pole</type1>
+    <type2>Miasto</type2>
+    <type3>Drapieżnik</type3>
+  </bird>
+  <bird id="227">
+    <polishName>sowa jarzębata</polishName>
+    <latinName>Surnia ulula</latinName>
+    <family>Sówkowate</family>
+    <rarity>2</rarity>
+    <type1>Las</type1>
+    <type2>Drapieżnik</type2>
+  </bird>
+  <bird id="228">
+    <polishName>sóweczka</polishName>
+    <latinName>Glaucidium passerinum</latinName>
+    <family>Sówkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Drapieżnik</type2>
+  </bird>
+  <bird id="229">
+    <polishName>syczek</polishName>
+    <latinName>Otus scops</latinName>
+    <family>Sówkowate</family>
+    <rarity>1</rarity>
+    <type1>Las</type1>
+    <type2>Drapieżnik</type2>
+  </bird>
+  <bird id="230">
+    <polishName>uszatka błotna</polishName>
+    <latinName>Asio flammeus</latinName>
+    <family>Sówkowate</family>
+    <rarity>1</rarity>
+    <type1>Pole</type1>
+    <type2>Bagno</type2>
+    <type3>Drapieżnik</type3>
+  </bird>
+  <bird id="231">
+    <polishName>uszatka</polishName>
+    <latinName>Asio otus</latinName>
+    <family>Sówkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Drapieżnik</type2>
+  </bird>
+  <bird id="232">
+    <polishName>puchacz śnieżny</polishName>
+    <latinName>Bubo scandiacus</latinName>
+    <family>Sówkowate</family>
+    <rarity>2</rarity>
+    <type1>Pole</type1>
+    <type2>Drapieżnik</type2>
+  </bird>
+  <bird id="233">
+    <polishName>puchacz</polishName>
+    <latinName>Bubo bubo</latinName>
+    <family>Sówkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Góry</type2>
+    <type3>Drapieżnik</type3>
+  </bird>
+  <bird id="234">
+    <polishName>puszczyk</polishName>
+    <latinName>Strix aluco</latinName>
+    <family>Sówkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Miasto</type2>
+    <type3>Drapieżnik</type3>
+  </bird>
+  <bird id="235">
+    <polishName>puszczyk uralski</polishName>
+    <latinName>Strix uralensis</latinName>
+    <family>Sówkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Drapieżnik</type2>
+  </bird>
+  <bird id="236">
+    <polishName>puszczyk mszarny</polishName>
+    <latinName>Strix nebulosa</latinName>
+    <family>Sówkowate</family>
+    <rarity>1</rarity>
+    <type1>Las</type1>
+    <type2>Bagno</type2>
+    <type3>Drapieżnik</type3>
+  </bird>
+  <bird id="237">
+    <polishName>rybołów</polishName>
+    <latinName>Pandion haliaetus</latinName>
+    <family>Rybołowowate</family>
+    <rarity>1</rarity>
+    <type1>Woda</type1>
+    <type2>Las</type2>
+    <type3>Rybożerny</type3>
+  </bird>
+  <bird id="238">
+    <polishName>kaniuk</polishName>
+    <latinName>Elanus caeruleus</latinName>
+    <family>Jastrzębiowate</family>
+    <rarity>2</rarity>
+    <type1>Pole</type1>
+    <type2>Drapieżnik</type2>
+  </bird>
+  <bird id="239">
+    <polishName>orłosęp</polishName>
+    <latinName>Gypaetus barbatus</latinName>
+    <family>Jastrzębiowate</family>
+    <rarity>3</rarity>
+    <type1>Góry</type1>
+    <type2>Drapieżnik</type2>
+  </bird>
+  <bird id="240">
+    <polishName>ścierwnik</polishName>
+    <latinName>Neophron percnopterus</latinName>
+    <family>Jastrzębiowate</family>
+    <rarity>2</rarity>
+    <type1>Pole</type1>
+    <type2>Drapieżnik</type2>
+  </bird>
+  <bird id="241">
+    <polishName>trzmielojad</polishName>
+    <latinName>Pernis apivorus</latinName>
+    <family>Jastrzębiowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="242">
+    <polishName>sęp kasztanowaty</polishName>
+    <latinName>Aegypius monachus</latinName>
+    <family>Jastrzębiowate</family>
+    <rarity>2</rarity>
+    <type1>Góry</type1>
+    <type2>Drapieżnik</type2>
+  </bird>
+  <bird id="243">
+    <polishName>sęp płowy</polishName>
+    <latinName>Gyps fulvus</latinName>
+    <family>Jastrzębiowate</family>
+    <rarity>2</rarity>
+    <type1>Góry</type1>
+    <type2>Drapieżnik</type2>
+  </bird>
+  <bird id="244">
+    <polishName>gadożer</polishName>
+    <latinName>Circaetus gallicus</latinName>
+    <family>Jastrzębiowate</family>
+    <rarity>1</rarity>
+    <type1>Pole</type1>
+    <type2>Las</type2>
+    <type3>Drapieżnik</type3>
+  </bird>
+  <bird id="245">
+    <polishName>orlik grubodzioby</polishName>
+    <latinName>Clanga clanga</latinName>
+    <family>Jastrzębiowate</family>
+    <rarity>1</rarity>
+    <type1>Las</type1>
+    <type2>Bagno</type2>
+    <type3>Drapieżnik</type3>
+  </bird>
+  <bird id="246">
+    <polishName>orlik krzykliwy</polishName>
+    <latinName>Clanga pomarina</latinName>
+    <family>Jastrzębiowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Bagno</type2>
+    <type3>Drapieżnik</type3>
+  </bird>
+  <bird id="247">
+    <polishName>orzełek</polishName>
+    <latinName>Hieraaetus pennatus</latinName>
+    <family>Jastrzębiowate</family>
+    <rarity>2</rarity>
+    <type1>Las</type1>
+    <type2>Góry</type2>
+    <type3>Drapieżnik</type3>
+  </bird>
+  <bird id="248">
+    <polishName>orzeł stepowy</polishName>
+    <latinName>Aquila nipalensis</latinName>
+    <family>Jastrzębiowate</family>
+    <rarity>2</rarity>
+    <type1>Pole</type1>
+    <type2>Drapieżnik</type2>
+  </bird>
+  <bird id="249">
+    <polishName>orzeł cesarski</polishName>
+    <latinName>Aquila heliaca</latinName>
+    <family>Jastrzębiowate</family>
+    <rarity>2</rarity>
+    <type1>Las</type1>
+    <type2>Pole</type2>
+    <type3>Drapieżnik</type3>
+  </bird>
+  <bird id="250">
+    <polishName>orzeł przedni</polishName>
+    <latinName>Aquila chrysaetos</latinName>
+    <family>Jastrzębiowate</family>
+    <rarity>1</rarity>
+    <type1>Las</type1>
+    <type2>Góry</type2>
+    <type3>Drapieżnik</type3>
+  </bird>
+  <bird id="251">
+    <polishName>orzeł południowy</polishName>
+    <latinName>Aquila fasciata</latinName>
+    <family>Jastrzębiowate</family>
+    <rarity>3</rarity>
+    <type1>Las</type1>
+    <type2>Góry</type2>
+    <type3>Drapieżnik</type3>
+  </bird>
+  <bird id="252">
+    <polishName>krogulec krótkonogi</polishName>
+    <latinName>Tachyspiza brevipes</latinName>
+    <family>Jastrzębiowate</family>
+    <rarity>3</rarity>
+    <type1>Las</type1>
+    <type2>Drapieżnik</type2>
+  </bird>
+  <bird id="253">
+    <polishName>krogulec</polishName>
+    <latinName>Accipiter nisus</latinName>
+    <family>Jastrzębiowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Drapieżnik</type2>
+  </bird>
+  <bird id="254">
+    <polishName>jastrząb</polishName>
+    <latinName>Astur gentilis</latinName>
+    <family>Jastrzębiowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Drapieżnik</type2>
+  </bird>
+  <bird id="255">
+    <polishName>błotniak stepowy</polishName>
+    <latinName>Circus macrourus</latinName>
+    <family>Jastrzębiowate</family>
+    <rarity>1</rarity>
+    <type1>Pole</type1>
+    <type2>Bagno</type2>
+    <type3>Drapieżnik</type3>
+  </bird>
+  <bird id="256">
+    <polishName>błotniak zbożowy</polishName>
+    <latinName>Circus cyaneus</latinName>
+    <family>Jastrzębiowate</family>
+    <rarity>1</rarity>
+    <type1>Pole</type1>
+    <type2>Bagno</type2>
+    <type3>Drapieżnik</type3>
+  </bird>
+  <bird id="257">
+    <polishName>błotniak łąkowy</polishName>
+    <latinName>Circus pygargus</latinName>
+    <family>Jastrzębiowate</family>
+    <rarity>0</rarity>
+    <type1>Pole</type1>
+    <type2>Bagno</type2>
+    <type3>Drapieżnik</type3>
+  </bird>
+  <bird id="258">
+    <polishName>błotniak stawowy</polishName>
+    <latinName>Circus aeruginosus</latinName>
+    <family>Jastrzębiowate</family>
+    <rarity>0</rarity>
+    <type1>Trzcina</type1>
+    <type2>Bagno</type2>
+    <type3>Drapieżnik</type3>
+  </bird>
+  <bird id="259">
+    <polishName>kania ruda</polishName>
+    <latinName>Milvus milvus</latinName>
+    <family>Jastrzębiowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Pole</type2>
+    <type3>Drapieżnik</type3>
+  </bird>
+  <bird id="260">
+    <polishName>kania czarna</polishName>
+    <latinName>Milvus migrans</latinName>
+    <family>Jastrzębiowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Woda</type2>
+    <type3>Drapieżnik</type3>
+  </bird>
+  <bird id="261">
+    <polishName>bielik wschodni</polishName>
+    <latinName>Haliaeetus leucoryphus</latinName>
+    <family>Jastrzębiowate</family>
+    <rarity>2</rarity>
+    <type1>Woda</type1>
+    <type2>Drapieżnik</type2>
+  </bird>
+  <bird id="262">
+    <polishName>bielik</polishName>
+    <latinName>Haliaeetus albicilla</latinName>
+    <family>Jastrzębiowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Las</type2>
+    <type3>Drapieżnik</type3>
+  </bird>
+  <bird id="263">
+    <polishName>myszołów włochaty</polishName>
+    <latinName>Buteo lagopus</latinName>
+    <family>Jastrzębiowate</family>
+    <rarity>1</rarity>
+    <type1>Pole</type1>
+    <type2>Drapieżnik</type2>
+  </bird>
+  <bird id="264">
+    <polishName>myszołów</polishName>
+    <latinName>Buteo buteo</latinName>
+    <family>Jastrzębiowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Pole</type2>
+    <type3>Drapieżnik</type3>
+  </bird>
+  <bird id="265">
+    <polishName>kurhannik</polishName>
+    <latinName>Buteo rufinus</latinName>
+    <family>Jastrzębiowate</family>
+    <rarity>1</rarity>
+    <type1>Pole</type1>
+    <type2>Drapieżnik</type2>
+  </bird>
+  <bird id="266">
+    <polishName>dudek</polishName>
+    <latinName>Upupa epops</latinName>
+    <family>Dudkowate</family>
+    <rarity>0</rarity>
+    <type1>Pole</type1>
+    <type2>Las</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="267">
+    <polishName>kraska</polishName>
+    <latinName>Coracias garrulus</latinName>
+    <family>Kraskowate</family>
+    <rarity>1</rarity>
+    <type1>Las</type1>
+    <type2>Pole</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="268">
+    <polishName>żołna</polishName>
+    <latinName>Merops apiaster</latinName>
+    <family>Żołnikowate</family>
+    <rarity>0</rarity>
+    <type1>Pole</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="269">
+    <polishName>zimorodek</polishName>
+    <latinName>Alcedo atthis</latinName>
+    <family>Zimorodkowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="270">
+    <polishName>rybaczek srokaty</polishName>
+    <latinName>Ceryle rudis</latinName>
+    <family>Rybaczkiwate</family>
+    <rarity>2</rarity>
+    <type1>Woda</type1>
+    <type2>Rybożerny</type2>
+  </bird>
+  <bird id="271">
+    <polishName>krętogłów</polishName>
+    <latinName>Jynx torquilla</latinName>
+    <family>Dzięciołowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="272">
+    <polishName>dzięcioł zielonosiwy</polishName>
+    <latinName>Picus canus</latinName>
+    <family>Dzięciołowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="273">
+    <polishName>dzięcioł zielony</polishName>
+    <latinName>Picus viridis</latinName>
+    <family>Dzięciołowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="274">
+    <polishName>dzięcioł czarny</polishName>
+    <latinName>Dryocopus martius</latinName>
+    <family>Dzięciołowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="275">
+    <polishName>dzięcioł trójpalczasty</polishName>
+    <latinName>Picoides tridactylus</latinName>
+    <family>Dzięciołowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Góry</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="276">
+    <polishName>dzięcioł średni</polishName>
+    <latinName>Dendrocoptes medius</latinName>
+    <family>Dzięciołowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="277">
+    <polishName>dzięcioł białogrzbiety</polishName>
+    <latinName>Dendrocopos leucotos</latinName>
+    <family>Dzięciołowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="278">
+    <polishName>dzięcioł duży</polishName>
+    <latinName>Dendrocopos major</latinName>
+    <family>Dzięciołowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="279">
+    <polishName>dzięcioł białoszyi</polishName>
+    <latinName>Dendrocopos syriacus</latinName>
+    <family>Dzięciołowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Miasto</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="280">
+    <polishName>dzięciołek</polishName>
+    <latinName>Dryobates minor</latinName>
+    <family>Dzięciołowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="281">
+    <polishName>pustułeczka</polishName>
+    <latinName>Falco naumanni</latinName>
+    <family>Sokołowate</family>
+    <rarity>2</rarity>
+    <type1>Pole</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="282">
+    <polishName>pustułka</polishName>
+    <latinName>Falco tinnunculus</latinName>
+    <family>Sokołowate</family>
+    <rarity>0</rarity>
+    <type1>Pole</type1>
+    <type2>Miasto</type2>
+    <type3>Drapieżnik</type3>
+  </bird>
+  <bird id="283">
+    <polishName>kobczyk</polishName>
+    <latinName>Falco vespertinus</latinName>
+    <family>Sokołowate</family>
+    <rarity>1</rarity>
+    <type1>Pole</type1>
+    <type2>Drapieżnik</type2>
+  </bird>
+  <bird id="284">
+    <polishName>drzemlik</polishName>
+    <latinName>Falco columbarius</latinName>
+    <family>Sokołowate</family>
+    <rarity>1</rarity>
+    <type1>Pole</type1>
+    <type2>Drapieżnik</type2>
+  </bird>
+  <bird id="285">
+    <polishName>sokół skalny</polishName>
+    <latinName>Falco eleonorae</latinName>
+    <family>Sokołowate</family>
+    <rarity>3</rarity>
+    <type1>Góry</type1>
+    <type2>Drapieżnik</type2>
+  </bird>
+  <bird id="286">
+    <polishName>kobuz</polishName>
+    <latinName>Falco subbuteo</latinName>
+    <family>Sokołowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Pole</type2>
+    <type3>Drapieżnik</type3>
+  </bird>
+  <bird id="287">
+    <polishName>sokół wędrowny</polishName>
+    <latinName>Falco peregrinus</latinName>
+    <family>Sokołowate</family>
+    <rarity>1</rarity>
+    <type1>Miasto</type1>
+    <type2>Las</type2>
+    <type3>Drapieżnik</type3>
+  </bird>
+  <bird id="288">
+    <polishName>raróg górski</polishName>
+    <latinName>Falco biarmicus</latinName>
+    <family>Sokołowate</family>
+    <rarity>3</rarity>
+    <type1>Góry</type1>
+    <type2>Pole</type2>
+    <type3>Drapieżnik</type3>
+  </bird>
+  <bird id="289">
+    <polishName>białozór</polishName>
+    <latinName>Falco rusticolus</latinName>
+    <family>Sokołowate</family>
+    <rarity>2</rarity>
+    <type1>Pole</type1>
+    <type2>Drapieżnik</type2>
+  </bird>
+  <bird id="290">
+    <polishName>raróg</polishName>
+    <latinName>Falco cherrug</latinName>
+    <family>Sokołowate</family>
+    <rarity>1</rarity>
+    <type1>Pole</type1>
+    <type2>Drapieżnik</type2>
+  </bird>
+  <bird id="291">
+    <polishName>wireonek czerwonooki</polishName>
+    <latinName>Vireo olivaceus</latinName>
+    <family>Wireonkowate</family>
+    <rarity>3</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="292">
+    <polishName>wilga</polishName>
+    <latinName>Oriolus oriolus</latinName>
+    <family>Wilgowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owocożerny</type2>
+  </bird>
+  <bird id="293">
+    <polishName>srokosz</polishName>
+    <latinName>Lanius excubitor</latinName>
+    <family>Dzierzbikowate</family>
+    <rarity>0</rarity>
+    <type1>Pole</type1>
+    <type2>Las</type2>
+    <type3>Drapieżnik</type3>
+  </bird>
+  <bird id="294">
+    <polishName>srokosz północny</polishName>
+    <latinName>Lanius borealis</latinName>
+    <family>Dzierzbikowate</family>
+    <rarity>3</rarity>
+    <type1>Pole</type1>
+    <type2>Drapieżnik</type2>
+  </bird>
+  <bird id="295">
+    <polishName>dzierzba czarnoczelna</polishName>
+    <latinName>Lanius minor</latinName>
+    <family>Dzierzbikowate</family>
+    <rarity>1</rarity>
+    <type1>Pole</type1>
+    <type2>Las</type2>
+    <type3>Drapieżnik</type3>
+  </bird>
+  <bird id="296">
+    <polishName>dzierzba rudogłowa</polishName>
+    <latinName>Lanius senator</latinName>
+    <family>Dzierzbikowate</family>
+    <rarity>2</rarity>
+    <type1>Las</type1>
+    <type2>Pole</type2>
+    <type3>Drapieżnik</type3>
+  </bird>
+  <bird id="297">
+    <polishName>dzierzba pustynna</polishName>
+    <latinName>Lanius isabellinus</latinName>
+    <family>Dzierzbikowate</family>
+    <rarity>3</rarity>
+    <type1>Pole</type1>
+    <type2>Drapieżnik</type2>
+  </bird>
+  <bird id="298">
+    <polishName>gąsiorek</polishName>
+    <latinName>Lanius collurio</latinName>
+    <family>Dzierzbikowate</family>
+    <rarity>0</rarity>
+    <type1>Pole</type1>
+    <type2>Las</type2>
+    <type3>Drapieżnik</type3>
+  </bird>
+  <bird id="299">
+    <polishName>dzierzba rdzawosterna</polishName>
+    <latinName>Lanius phoenicuroides</latinName>
+    <family>Dzierzbikowate</family>
+    <rarity>3</rarity>
+    <type1>Pole</type1>
+    <type2>Drapieżnik</type2>
+  </bird>
+  <bird id="300">
+    <polishName>wieszczek</polishName>
+    <latinName>Pyrrhocorax graculus</latinName>
+    <family>Krukowate</family>
+    <rarity>3</rarity>
+    <type1>Góry</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="301">
+    <polishName>sójka syberyjska</polishName>
+    <latinName>Perisoreus infaustus</latinName>
+    <family>Krukowate</family>
+    <rarity>3</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="302">
+    <polishName>sójka</polishName>
+    <latinName>Garrulus glandarius</latinName>
+    <family>Krukowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owocożerny</type2>
+  </bird>
+  <bird id="303">
+    <polishName>sroka</polishName>
+    <latinName>Pica pica</latinName>
+    <family>Krukowate</family>
+    <rarity>0</rarity>
+    <type1>Pole</type1>
+    <type2>Miasto</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="304">
+    <polishName>orzechówka</polishName>
+    <latinName>Nucifraga caryocatactes</latinName>
+    <family>Krukowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Ziarnojady</type2>
+  </bird>
+  <bird id="305">
+    <polishName>kawka</polishName>
+    <latinName>Coloeus monedula</latinName>
+    <family>Krukowate</family>
+    <rarity>0</rarity>
+    <type1>Miasto</type1>
+    <type2>Las</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="306">
+    <polishName>gawron</polishName>
+    <latinName>Corvus frugilegus</latinName>
+    <family>Krukowate</family>
+    <rarity>0</rarity>
+    <type1>Pole</type1>
+    <type2>Las</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="307">
+    <polishName>kruk</polishName>
+    <latinName>Corvus corax</latinName>
+    <family>Krukowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Góry</type2>
+    <type3>Drapieżnik</type3>
+  </bird>
+  <bird id="308">
+    <polishName>wrona</polishName>
+    <latinName>Corvus corone</latinName>
+    <family>Krukowate</family>
+    <rarity>0</rarity>
+    <type1>Miasto</type1>
+    <type2>Pole</type2>
+    <type3>Drapieżnik</type3>
+  </bird>
+  <bird id="309">
+    <polishName>remiz</polishName>
+    <latinName>Remiz pendulinus</latinName>
+    <family>Remizikowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Trzcina</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="310">
+    <polishName>modraszka</polishName>
+    <latinName>Cyanistes caeruleus</latinName>
+    <family>Sikorkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Miasto</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="311">
+    <polishName>sikora lazurowa</polishName>
+    <latinName>Cyanistes cyanus</latinName>
+    <family>Sikorkowate</family>
+    <rarity>2</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="312">
+    <polishName>bogatka</polishName>
+    <latinName>Parus major</latinName>
+    <family>Sikorkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Miasto</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="313">
+    <polishName>sosnówka</polishName>
+    <latinName>Periparus ater</latinName>
+    <family>Sikorkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="314">
+    <polishName>czubatka</polishName>
+    <latinName>Lophophanes cristatus</latinName>
+    <family>Sikorkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="315">
+    <polishName>sikora uboga</polishName>
+    <latinName>Poecile palustris</latinName>
+    <family>Sikorkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="316">
+    <polishName>czarnogłówka</polishName>
+    <latinName>Poecile montanus</latinName>
+    <family>Sikorkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="317">
+    <polishName>wąsatka</polishName>
+    <latinName>Panurus biarmicus</latinName>
+    <family>Wąsatkowate</family>
+    <rarity>0</rarity>
+    <type1>Trzcina</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="318">
+    <polishName>lerka</polishName>
+    <latinName>Lullula arborea</latinName>
+    <family>Skowronkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Pole</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="319">
+    <polishName>skowronek białoskrzydły</polishName>
+    <latinName>Alauda leucoptera</latinName>
+    <family>Skowronkowate</family>
+    <rarity>3</rarity>
+    <type1>Pole</type1>
+    <type2>Ziarnojady</type2>
+  </bird>
+  <bird id="320">
+    <polishName>skowronek</polishName>
+    <latinName>Alauda arvensis</latinName>
+    <family>Skowronkowate</family>
+    <rarity>0</rarity>
+    <type1>Pole</type1>
+    <type2>Ziarnojady</type2>
+  </bird>
+  <bird id="321">
+    <polishName>dzierlatka</polishName>
+    <latinName>Galerida cristata</latinName>
+    <family>Skowronkowate</family>
+    <rarity>0</rarity>
+    <type1>Pole</type1>
+    <type2>Miasto</type2>
+    <type3>Ziarnojady</type3>
+  </bird>
+  <bird id="322">
+    <polishName>górniczek</polishName>
+    <latinName>Eremophila alpestris</latinName>
+    <family>Skowronkowate</family>
+    <rarity>1</rarity>
+    <type1>Pole</type1>
+    <type2>Góry</type2>
+    <type3>Ziarnojady</type3>
+  </bird>
+  <bird id="323">
+    <polishName>skowrończyk krótkopalcowy</polishName>
+    <latinName>Calandrella brachydactyla</latinName>
+    <family>Skowronkowate</family>
+    <rarity>2</rarity>
+    <type1>Pole</type1>
+    <type2>Ziarnojady</type2>
+  </bird>
+  <bird id="324">
+    <polishName>kalandra dwuplamista</polishName>
+    <latinName>Melanocorypha bimaculata</latinName>
+    <family>Skowronkowate</family>
+    <rarity>3</rarity>
+    <type1>Pole</type1>
+    <type2>Ziarnojady</type2>
+  </bird>
+  <bird id="325">
+    <polishName>kalandra czarna</polishName>
+    <latinName>Melanocorypha yeltoniensis</latinName>
+    <family>Skowronkowate</family>
+    <rarity>3</rarity>
+    <type1>Pole</type1>
+    <type2>Ziarnojady</type2>
+  </bird>
+  <bird id="326">
+    <polishName>kalandra szara</polishName>
+    <latinName>Melanocorypha calandra</latinName>
+    <family>Skowronkowate</family>
+    <rarity>3</rarity>
+    <type1>Pole</type1>
+    <type2>Ziarnojady</type2>
+  </bird>
+  <bird id="327">
+    <polishName>zaganiacz</polishName>
+    <latinName>Hippolais icterina</latinName>
+    <family>Trzcinnikowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="328">
+    <polishName>zaganiacz szczebiotliwy</polishName>
+    <latinName>Hippolais polyglotta</latinName>
+    <family>Trzcinnikowate</family>
+    <rarity>3</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="329">
+    <polishName>zaganiacz afgański</polishName>
+    <latinName>Iduna rama</latinName>
+    <family>Trzcinnikowate</family>
+    <rarity>3</rarity>
+    <type1>Pole</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="330">
+    <polishName>zaganiacz mały</polishName>
+    <latinName>Iduna caligata</latinName>
+    <family>Trzcinnikowate</family>
+    <rarity>2</rarity>
+    <type1>Bagno</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="331">
+    <polishName>zaganiacz blady</polishName>
+    <latinName>Iduna pallida</latinName>
+    <family>Trzcinnikowate</family>
+    <rarity>3</rarity>
+    <type1>Bagno</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="332">
+    <polishName>rokitniczka</polishName>
+    <latinName>Acrocephalus schoenobaenus</latinName>
+    <family>Trzcinnikowate</family>
+    <rarity>0</rarity>
+    <type1>Trzcina</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="333">
+    <polishName>wodniczka</polishName>
+    <latinName>Acrocephalus paludicola</latinName>
+    <family>Trzcinnikowate</family>
+    <rarity>0</rarity>
+    <type1>Bagno</type1>
+    <type2>Trzcina</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="334">
+    <polishName>tamaryszka</polishName>
+    <latinName>Acrocephalus melanopogon</latinName>
+    <family>Trzcinnikowate</family>
+    <rarity>2</rarity>
+    <type1>Trzcina</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="335">
+    <polishName>trzcinniczek kaspijski</polishName>
+    <latinName>Acrocephalus agricola</latinName>
+    <family>Trzcinnikowate</family>
+    <rarity>2</rarity>
+    <type1>Trzcina</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="336">
+    <polishName>zaroślówka</polishName>
+    <latinName>Acrocephalus dumetorum</latinName>
+    <family>Trzcinnikowate</family>
+    <rarity>1</rarity>
+    <type1>Bagno</type1>
+    <type2>Las</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="337">
+    <polishName>łozówka</polishName>
+    <latinName>Acrocephalus palustris</latinName>
+    <family>Trzcinnikowate</family>
+    <rarity>0</rarity>
+    <type1>Trzcina</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="338">
+    <polishName>trzcinniczek</polishName>
+    <latinName>Acrocephalus scirpaceus</latinName>
+    <family>Trzcinnikowate</family>
+    <rarity>0</rarity>
+    <type1>Trzcina</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="339">
+    <polishName>trzciniak</polishName>
+    <latinName>Acrocephalus arundinaceus</latinName>
+    <family>Trzcinnikowate</family>
+    <rarity>0</rarity>
+    <type1>Trzcina</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="340">
+    <polishName>świerszczak melodyjny</polishName>
+    <latinName>Helopsaltes certhiola</latinName>
+    <family>Strumieniówkowate</family>
+    <rarity>3</rarity>
+    <type1>Trzcina</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="341">
+    <polishName>strumieniówka</polishName>
+    <latinName>Locustella fluviatilis</latinName>
+    <family>Strumieniówkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="342">
+    <polishName>brzęczka</polishName>
+    <latinName>Locustella luscinioides</latinName>
+    <family>Strumieniówkowate</family>
+    <rarity>0</rarity>
+    <type1>Trzcina</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="343">
+    <polishName>świerszczak</polishName>
+    <latinName>Locustella naevia</latinName>
+    <family>Strumieniówkowate</family>
+    <rarity>0</rarity>
+    <type1>Bagno</type1>
+    <type2>Pole</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="344">
+    <polishName>brzegówka</polishName>
+    <latinName>Riparia riparia</latinName>
+    <family>Jaskółkowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="345">
+    <polishName>dymówka</polishName>
+    <latinName>Hirundo rustica</latinName>
+    <family>Jaskółkowate</family>
+    <rarity>0</rarity>
+    <type1>Pole</type1>
+    <type2>Miasto</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="346">
+    <polishName>oknówka</polishName>
+    <latinName>Delichon urbicum</latinName>
+    <family>Jaskółkowate</family>
+    <rarity>0</rarity>
+    <type1>Miasto</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="347">
+    <polishName>jaskółka śródziemnomorska</polishName>
+    <latinName>Cecropis rufula</latinName>
+    <family>Jaskółkowate</family>
+    <rarity>2</rarity>
+    <type1>Woda</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="348">
+    <polishName>raniuszek</polishName>
+    <latinName>Aegithalos caudatus</latinName>
+    <family>Raniuszkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="349">
+    <polishName>wierzbówka</polishName>
+    <latinName>Cettia cetti</latinName>
+    <family>Wierzbówkowate</family>
+    <rarity>3</rarity>
+    <type1>Trzcina</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="350">
+    <polishName>świstunka leśna</polishName>
+    <latinName>Phylloscopus sibilatrix</latinName>
+    <family>Świstunkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="351">
+    <polishName>świstunka górska</polishName>
+    <latinName>Phylloscopus bonelli</latinName>
+    <family>Świstunkowate</family>
+    <rarity>2</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="352">
+    <polishName>świstunka żółtawa</polishName>
+    <latinName>Phylloscopus inornatus</latinName>
+    <family>Świstunkowate</family>
+    <rarity>1</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="353">
+    <polishName>świstunka ałtajska</polishName>
+    <latinName>Phylloscopus humei</latinName>
+    <family>Świstunkowate</family>
+    <rarity>2</rarity>
+    <type1>Las</type1>
+    <type2>Góry</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="354">
+    <polishName>świstunka złotawa</polishName>
+    <latinName>Phylloscopus proregulus</latinName>
+    <family>Świstunkowate</family>
+    <rarity>2</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="355">
+    <polishName>świstunka grubodzioba</polishName>
+    <latinName>Phylloscopus schwarzi</latinName>
+    <family>Świstunkowate</family>
+    <rarity>2</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="356">
+    <polishName>świstunka brunatna</polishName>
+    <latinName>Phylloscopus fuscatus</latinName>
+    <family>Świstunkowate</family>
+    <rarity>2</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="357">
+    <polishName>piecuszek</polishName>
+    <latinName>Phylloscopus trochilus</latinName>
+    <family>Świstunkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="358">
+    <polishName>świstunka iberyjska</polishName>
+    <latinName>Phylloscopus ibericus</latinName>
+    <family>Świstunkowate</family>
+    <rarity>3</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="359">
+    <polishName>pierwiosnek</polishName>
+    <latinName>Phylloscopus collybita</latinName>
+    <family>Świstunkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Miasto</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="360">
+    <polishName>wójcik</polishName>
+    <latinName>Phylloscopus trochiloides</latinName>
+    <family>Świstunkowate</family>
+    <rarity>1</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="361">
+    <polishName>świstunka północna</polishName>
+    <latinName>Phylloscopus borealis</latinName>
+    <family>Świstunkowate</family>
+    <rarity>3</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="362">
+    <polishName>gajówka</polishName>
+    <latinName>Sylvia borin</latinName>
+    <family>Pokrzewkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="363">
+    <polishName>kapturka</polishName>
+    <latinName>Sylvia atricapilla</latinName>
+    <family>Pokrzewkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Miasto</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="364">
+    <polishName>jarzębatka</polishName>
+    <latinName>Curruca nisoria</latinName>
+    <family>Pokrzewkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Pole</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="365">
+    <polishName>piegża</polishName>
+    <latinName>Curruca curruca</latinName>
+    <family>Pokrzewkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="366">
+    <polishName>pokrzewka kaspijska</polishName>
+    <latinName>Curruca mystacea</latinName>
+    <family>Pokrzewkowate</family>
+    <rarity>3</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="367">
+    <polishName>cierniówka</polishName>
+    <latinName>Curruca communis</latinName>
+    <family>Pokrzewkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Pole</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="368">
+    <polishName>pokrzewka aksamitna</polishName>
+    <latinName>Curruca melanocephala</latinName>
+    <family>Pokrzewkowate</family>
+    <rarity>3</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="369">
+    <polishName>pokrzewka iberyjska</polishName>
+    <latinName>Curruca iberiae</latinName>
+    <family>Pokrzewkowate</family>
+    <rarity>3</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="370">
+    <polishName>pokrzewka wąsata</polishName>
+    <latinName>Curruca cantillans</latinName>
+    <family>Pokrzewkowate</family>
+    <rarity>2</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="371">
+    <polishName>jemiołuszka</polishName>
+    <latinName>Bombycilla garrulus</latinName>
+    <family>Jemiołuszkowate</family>
+    <rarity>1</rarity>
+    <type1>Las</type1>
+    <type2>Owocożerny</type2>
+  </bird>
+  <bird id="372">
+    <polishName>mysikrólik</polishName>
+    <latinName>Regulus regulus</latinName>
+    <family>Mysikrólikowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="373">
+    <polishName>zniczek</polishName>
+    <latinName>Regulus ignicapilla</latinName>
+    <family>Mysikrólikowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="374">
+    <polishName>pomurnik</polishName>
+    <latinName>Tichodroma muraria</latinName>
+    <family>Pomurnikowate</family>
+    <rarity>1</rarity>
+    <type1>Góry</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="375">
+    <polishName>kowalik</polishName>
+    <latinName>Sitta europaea</latinName>
+    <family>Kowalkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="376">
+    <polishName>pełzacz leśny</polishName>
+    <latinName>Certhia familiaris</latinName>
+    <family>Pełzaczowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="377">
+    <polishName>pełzacz ogrodowy</polishName>
+    <latinName>Certhia brachydactyla</latinName>
+    <family>Pełzaczowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="378">
+    <polishName>strzyżyk</polishName>
+    <latinName>Troglodytes troglodytes</latinName>
+    <family>Strzyżykowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="379">
+    <polishName>szpak jednobarwny</polishName>
+    <latinName>Sturnus unicolor</latinName>
+    <family>Szpakowate</family>
+    <rarity>3</rarity>
+    <type1>Pole</type1>
+    <type2>Miasto</type2>
+    <type3>Owocożerny</type3>
+  </bird>
+  <bird id="380">
+    <polishName>szpak</polishName>
+    <latinName>Sturnus vulgaris</latinName>
+    <family>Szpakowate</family>
+    <rarity>0</rarity>
+    <type1>Miasto</type1>
+    <type2>Pole</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="381">
+    <polishName>pasterz</polishName>
+    <latinName>Pastor roseus</latinName>
+    <family>Szpakowate</family>
+    <rarity>2</rarity>
+    <type1>Pole</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="382">
+    <polishName>pluszcz</polishName>
+    <latinName>Cinclus cinclus</latinName>
+    <family>Pluszczowate</family>
+    <rarity>0</rarity>
+    <type1>Góry</type1>
+    <type2>Woda</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="383">
+    <polishName>drozdoń tajgowy</polishName>
+    <latinName>Zoothera aurea</latinName>
+    <family>Drozdowate</family>
+    <rarity>2</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="384">
+    <polishName>drozdaczek ciemny</polishName>
+    <latinName>Geokichla sibirica</latinName>
+    <family>Drozdowate</family>
+    <rarity>2</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="385">
+    <polishName>paszkot</polishName>
+    <latinName>Turdus viscivorus</latinName>
+    <family>Drozdowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owocożerny</type2>
+  </bird>
+  <bird id="386">
+    <polishName>śpiewak</polishName>
+    <latinName>Turdus philomelos</latinName>
+    <family>Drozdowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Miasto</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="387">
+    <polishName>droździk</polishName>
+    <latinName>Turdus iliacus</latinName>
+    <family>Drozdowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="388">
+    <polishName>kos</polishName>
+    <latinName>Turdus merula</latinName>
+    <family>Drozdowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Miasto</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="389">
+    <polishName>kwiczoł</polishName>
+    <latinName>Turdus pilaris</latinName>
+    <family>Drozdowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Pole</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="390">
+    <polishName>drozd obrożny</polishName>
+    <latinName>Turdus torquatus</latinName>
+    <family>Drozdowate</family>
+    <rarity>0</rarity>
+    <type1>Góry</type1>
+    <type2>Las</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="391">
+    <polishName>drozd rdzawy</polishName>
+    <latinName>Turdus naumanni</latinName>
+    <family>Drozdowate</family>
+    <rarity>3</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="392">
+    <polishName>drozd rdzawoskrzydły</polishName>
+    <latinName>Turdus eunomus</latinName>
+    <family>Drozdowate</family>
+    <rarity>3</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="393">
+    <polishName>drozd rdzawogardły</polishName>
+    <latinName>Turdus ruficollis</latinName>
+    <family>Drozdowate</family>
+    <rarity>3</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="394">
+    <polishName>drozd czarnogardły</polishName>
+    <latinName>Turdus atrogularis</latinName>
+    <family>Drozdowate</family>
+    <rarity>2</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="395">
+    <polishName>drozd oliwkowy</polishName>
+    <latinName>Turdus obscurus</latinName>
+    <family>Drozdowate</family>
+    <rarity>2</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="396">
+    <polishName>muchołówka szara</polishName>
+    <latinName>Muscicapa striata</latinName>
+    <family>Muchołówkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Miasto</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="397">
+    <polishName>rudzik</polishName>
+    <latinName>Erithacus rubecula</latinName>
+    <family>Muchołówkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Miasto</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="398">
+    <polishName>słowik rdzawy</polishName>
+    <latinName>Luscinia megarhynchos</latinName>
+    <family>Muchołówkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="399">
+    <polishName>słowik szary</polishName>
+    <latinName>Luscinia luscinia</latinName>
+    <family>Muchołówkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="400">
+    <polishName>podróżniczek</polishName>
+    <latinName>Luscinia svecica</latinName>
+    <family>Muchołówkowate</family>
+    <rarity>0</rarity>
+    <type1>Bagno</type1>
+    <type2>Trzcina</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="401">
+    <polishName>słowik syberyjski</polishName>
+    <latinName>Larvivora sibilans</latinName>
+    <family>Muchołówkowate</family>
+    <rarity>3</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="402">
+    <polishName>muchołówka mała</polishName>
+    <latinName>Ficedula parva</latinName>
+    <family>Muchołówkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="403">
+    <polishName>muchołówka białoszyja</polishName>
+    <latinName>Ficedula albicollis</latinName>
+    <family>Muchołówkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="404">
+    <polishName>muchołówka żałobna</polishName>
+    <latinName>Ficedula hypoleuca</latinName>
+    <family>Muchołówkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="405">
+    <polishName>modraczek</polishName>
+    <latinName>Tarsiger cyanurus</latinName>
+    <family>Muchołówkowate</family>
+    <rarity>2</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="406">
+    <polishName>kopciuszek</polishName>
+    <latinName>Phoenicurus ochruros</latinName>
+    <family>Muchołówkowate</family>
+    <rarity>0</rarity>
+    <type1>Miasto</type1>
+    <type2>Góry</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="407">
+    <polishName>pleszka</polishName>
+    <latinName>Phoenicurus phoenicurus</latinName>
+    <family>Muchołówkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="408">
+    <polishName>nagórnik</polishName>
+    <latinName>Monticola saxatilis</latinName>
+    <family>Muchołówkowate</family>
+    <rarity>2</rarity>
+    <type1>Góry</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="409">
+    <polishName>pokląskwa</polishName>
+    <latinName>Saxicola rubetra</latinName>
+    <family>Muchołówkowate</family>
+    <rarity>0</rarity>
+    <type1>Pole</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="410">
+    <polishName>kląskawka syberyjska</polishName>
+    <latinName>Saxicola maurus</latinName>
+    <family>Muchołówkowate</family>
+    <rarity>3</rarity>
+    <type1>Pole</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="411">
+    <polishName>kląskawka</polishName>
+    <latinName>Saxicola rubicola</latinName>
+    <family>Muchołówkowate</family>
+    <rarity>0</rarity>
+    <type1>Pole</type1>
+    <type2>Las</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="412">
+    <polishName>białorzytka pustynna</polishName>
+    <latinName>Oenanthe deserti</latinName>
+    <family>Muchołówkowate</family>
+    <rarity>3</rarity>
+    <type1>Pole</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="413">
+    <polishName>białorzytka rdzawa</polishName>
+    <latinName>Oenanthe hispanica</latinName>
+    <family>Muchołówkowate</family>
+    <rarity>3</rarity>
+    <type1>Pole</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="414">
+    <polishName>białorzytka pstra</polishName>
+    <latinName>Oenanthe pleschanka</latinName>
+    <family>Muchołówkowate</family>
+    <rarity>3</rarity>
+    <type1>Pole</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="415">
+    <polishName>białorzytka</polishName>
+    <latinName>Oenanthe oenanthe</latinName>
+    <family>Muchołówkowate</family>
+    <rarity>0</rarity>
+    <type1>Pole</type1>
+    <type2>Góry</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="416">
+    <polishName>białorzytka płowa</polishName>
+    <latinName>Oenanthe isabellina</latinName>
+    <family>Muchołówkowate</family>
+    <rarity>2</rarity>
+    <type1>Pole</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="417">
+    <polishName>białorzytka saharyjska</polishName>
+    <latinName>Oenanthe leucopyga</latinName>
+    <family>Muchołówkowate</family>
+    <rarity>3</rarity>
+    <type1>Pole</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="418">
+    <polishName>płochacz halny</polishName>
+    <latinName>Prunella collaris</latinName>
+    <family>Płochaczowate</family>
+    <rarity>0</rarity>
+    <type1>Góry</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="419">
+    <polishName>płochacz czarnogardły</polishName>
+    <latinName>Prunella atrogularis</latinName>
+    <family>Płochaczowate</family>
+    <rarity>3</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="420">
+    <polishName>pokrzywnica</polishName>
+    <latinName>Prunella modularis</latinName>
+    <family>Płochaczowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="421">
+    <polishName>płochacz syberyjski</polishName>
+    <latinName>Prunella montanella</latinName>
+    <family>Płochaczowate</family>
+    <rarity>2</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="422">
+    <polishName>wróbel skalny</polishName>
+    <latinName>Petronia petronia</latinName>
+    <family>Wróblowate</family>
+    <rarity>2</rarity>
+    <type1>Góry</type1>
+    <type2>Ziarnojady</type2>
+  </bird>
+  <bird id="423">
+    <polishName>śnieżka</polishName>
+    <latinName>Montifringilla nivalis</latinName>
+    <family>Wróblowate</family>
+    <rarity>3</rarity>
+    <type1>Góry</type1>
+    <type2>Ziarnojady</type2>
+  </bird>
+  <bird id="424">
+    <polishName>mazurek</polishName>
+    <latinName>Passer montanus</latinName>
+    <family>Wróblowate</family>
+    <rarity>0</rarity>
+    <type1>Pole</type1>
+    <type2>Miasto</type2>
+    <type3>Ziarnojady</type3>
+  </bird>
+  <bird id="425">
+    <polishName>wróbel</polishName>
+    <latinName>Passer domesticus</latinName>
+    <family>Wróblowate</family>
+    <rarity>0</rarity>
+    <type1>Miasto</type1>
+    <type2>Ziarnojady</type2>
+  </bird>
+  <bird id="426">
+    <polishName>pliszka górska</polishName>
+    <latinName>Motacilla cinerea</latinName>
+    <family>Pliszkowate</family>
+    <rarity>0</rarity>
+    <type1>Woda</type1>
+    <type2>Góry</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="427">
+    <polishName>pliszka żółta</polishName>
+    <latinName>Motacilla flava</latinName>
+    <family>Pliszkowate</family>
+    <rarity>0</rarity>
+    <type1>Pole</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="428">
+    <polishName>pliszka cytrynowa</polishName>
+    <latinName>Motacilla citreola</latinName>
+    <family>Pliszkowate</family>
+    <rarity>1</rarity>
+    <type1>Bagno</type1>
+    <type2>Pole</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="429">
+    <polishName>pliszka syberyjska</polishName>
+    <latinName>Motacilla tschutschensis</latinName>
+    <family>Pliszkowate</family>
+    <rarity>3</rarity>
+    <type1>Pole</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="430">
+    <polishName>pliszka siwa</polishName>
+    <latinName>Motacilla alba</latinName>
+    <family>Pliszkowate</family>
+    <rarity>0</rarity>
+    <type1>Miasto</type1>
+    <type2>Woda</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="431">
+    <polishName>świergotek stepowy</polishName>
+    <latinName>Anthus godlewskii</latinName>
+    <family>Pliszkowate</family>
+    <rarity>3</rarity>
+    <type1>Pole</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="432">
+    <polishName>świergotek polny</polishName>
+    <latinName>Anthus campestris</latinName>
+    <family>Pliszkowate</family>
+    <rarity>0</rarity>
+    <type1>Pole</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="433">
+    <polishName>świergotek szponiasty</polishName>
+    <latinName>Anthus richardi</latinName>
+    <family>Pliszkowate</family>
+    <rarity>2</rarity>
+    <type1>Pole</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="434">
+    <polishName>świergotek drzewny</polishName>
+    <latinName>Anthus trivialis</latinName>
+    <family>Pliszkowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="435">
+    <polishName>świergotek tajgowy</polishName>
+    <latinName>Anthus hodgsoni</latinName>
+    <family>Pliszkowate</family>
+    <rarity>2</rarity>
+    <type1>Las</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="436">
+    <polishName>świergotek rdzawogardły</polishName>
+    <latinName>Anthus cervinus</latinName>
+    <family>Pliszkowate</family>
+    <rarity>1</rarity>
+    <type1>Bagno</type1>
+    <type2>Pole</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="437">
+    <polishName>świergotek łąkowy</polishName>
+    <latinName>Anthus pratensis</latinName>
+    <family>Pliszkowate</family>
+    <rarity>0</rarity>
+    <type1>Pole</type1>
+    <type2>Bagno</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="438">
+    <polishName>świergotek nadmorski</polishName>
+    <latinName>Anthus petrosus</latinName>
+    <family>Pliszkowate</family>
+    <rarity>1</rarity>
+    <type1>Morze</type1>
+    <type2>Owadożerny</type2>
+  </bird>
+  <bird id="439">
+    <polishName>siwerniak</polishName>
+    <latinName>Anthus spinoletta</latinName>
+    <family>Pliszkowate</family>
+    <rarity>0</rarity>
+    <type1>Góry</type1>
+    <type2>Woda</type2>
+    <type3>Owadożerny</type3>
+  </bird>
+  <bird id="440">
+    <polishName>jer</polishName>
+    <latinName>Fringilla montifringilla</latinName>
+    <family>Łuszczakowate</family>
+    <rarity>1</rarity>
+    <type1>Las</type1>
+    <type2>Ziarnojady</type2>
+  </bird>
+  <bird id="441">
+    <polishName>zięba</polishName>
+    <latinName>Fringilla coelebs</latinName>
+    <family>Łuszczakowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Ziarnojady</type2>
+  </bird>
+  <bird id="442">
+    <polishName>grubodziób</polishName>
+    <latinName>Coccothraustes coccothraustes</latinName>
+    <family>Łuszczakowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Ziarnojady</type2>
+  </bird>
+  <bird id="443">
+    <polishName>dziwonia</polishName>
+    <latinName>Carpodacus erythrinus</latinName>
+    <family>Łuszczakowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Bagno</type2>
+    <type3>Ziarnojady</type3>
+  </bird>
+  <bird id="444">
+    <polishName>łuskowiec</polishName>
+    <latinName>Pinicola enucleator</latinName>
+    <family>Łuszczakowate</family>
+    <rarity>2</rarity>
+    <type1>Las</type1>
+    <type2>Ziarnojady</type2>
+  </bird>
+  <bird id="445">
+    <polishName>gil</polishName>
+    <latinName>Pyrrhula pyrrhula</latinName>
+    <family>Łuszczakowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Ziarnojady</type2>
+  </bird>
+  <bird id="446">
+    <polishName>gilak pustynny</polishName>
+    <latinName>Bucanetes githagineus</latinName>
+    <family>Łuszczakowate</family>
+    <rarity>3</rarity>
+    <type1>Pole</type1>
+    <type2>Ziarnojady</type2>
+  </bird>
+  <bird id="447">
+    <polishName>dzwoniec</polishName>
+    <latinName>Chloris chloris</latinName>
+    <family>Łuszczakowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Miasto</type2>
+    <type3>Ziarnojady</type3>
+  </bird>
+  <bird id="448">
+    <polishName>rzepołuch</polishName>
+    <latinName>Linaria flavirostris</latinName>
+    <family>Łuszczakowate</family>
+    <rarity>1</rarity>
+    <type1>Pole</type1>
+    <type2>Ziarnojady</type2>
+  </bird>
+  <bird id="449">
+    <polishName>makolągwa</polishName>
+    <latinName>Linaria cannabina</latinName>
+    <family>Łuszczakowate</family>
+    <rarity>0</rarity>
+    <type1>Pole</type1>
+    <type2>Las</type2>
+    <type3>Ziarnojady</type3>
+  </bird>
+  <bird id="450">
+    <polishName>czeczotka</polishName>
+    <latinName>Acanthis flammea</latinName>
+    <family>Łuszczakowate</family>
+    <rarity>1</rarity>
+    <type1>Las</type1>
+    <type2>Ziarnojady</type2>
+  </bird>
+  <bird id="451">
+    <polishName>krzyżodziób modrzewiowy</polishName>
+    <latinName>Loxia leucoptera</latinName>
+    <family>Łuszczakowate</family>
+    <rarity>2</rarity>
+    <type1>Las</type1>
+    <type2>Ziarnojady</type2>
+  </bird>
+  <bird id="452">
+    <polishName>krzyżodziób sosnowy</polishName>
+    <latinName>Loxia pytyopsittacus</latinName>
+    <family>Łuszczakowate</family>
+    <rarity>2</rarity>
+    <type1>Las</type1>
+    <type2>Ziarnojady</type2>
+  </bird>
+  <bird id="453">
+    <polishName>krzyżodziób świerkowy</polishName>
+    <latinName>Loxia curvirostra</latinName>
+    <family>Łuszczakowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Ziarnojady</type2>
+  </bird>
+  <bird id="454">
+    <polishName>osetnik</polishName>
+    <latinName>Carduelis citrinella</latinName>
+    <family>Łuszczakowate</family>
+    <rarity>3</rarity>
+    <type1>Góry</type1>
+    <type2>Las</type2>
+    <type3>Ziarnojady</type3>
+  </bird>
+  <bird id="455">
+    <polishName>szczygieł</polishName>
+    <latinName>Carduelis carduelis</latinName>
+    <family>Łuszczakowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Pole</type2>
+    <type3>Ziarnojady</type3>
+  </bird>
+  <bird id="456">
+    <polishName>kulczyk</polishName>
+    <latinName>Serinus serinus</latinName>
+    <family>Łuszczakowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Miasto</type2>
+    <type3>Ziarnojady</type3>
+  </bird>
+  <bird id="457">
+    <polishName>czyż</polishName>
+    <latinName>Spinus spinus</latinName>
+    <family>Łuszczakowate</family>
+    <rarity>0</rarity>
+    <type1>Las</type1>
+    <type2>Ziarnojady</type2>
+  </bird>
+  <bird id="458">
+    <polishName>śnieguła</polishName>
+    <latinName>Plectrophenax nivalis</latinName>
+    <family>Poświerkowate</family>
+    <rarity>1</rarity>
+    <type1>Pole</type1>
+    <type2>Morze</type2>
+    <type3>Ziarnojady</type3>
+  </bird>
+  <bird id="459">
+    <polishName>poświerka</polishName>
+    <latinName>Calcarius lapponicus</latinName>
+    <family>Poświerkowate</family>
+    <rarity>1</rarity>
+    <type1>Pole</type1>
+    <type2>Ziarnojady</type2>
+  </bird>
+  <bird id="460">
+    <polishName>potrzos</polishName>
+    <latinName>Emberiza schoeniclus</latinName>
+    <family>Trznadlowate</family>
+    <rarity>0</rarity>
+    <type1>Trzcina</type1>
+    <type2>Bagno</type2>
+    <type3>Ziarnojady</type3>
+  </bird>
+  <bird id="461">
+    <polishName>trznadel złotobrewy</polishName>
+    <latinName>Emberiza chrysophrys</latinName>
+    <family>Trznadlowate</family>
+    <rarity>3</rarity>
+    <type1>Las</type1>
+    <type2>Ziarnojady</type2>
+  </bird>
+  <bird id="462">
+    <polishName>trznadel złotawy</polishName>
+    <latinName>Emberiza aureola</latinName>
+    <family>Trznadlowate</family>
+    <rarity>3</rarity>
+    <type1>Pole</type1>
+    <type2>Las</type2>
+    <type3>Ziarnojady</type3>
+  </bird>
+  <bird id="463">
+    <polishName>trznadelek</polishName>
+    <latinName>Emberiza pusilla</latinName>
+    <family>Trznadlowate</family>
+    <rarity>2</rarity>
+    <type1>Las</type1>
+    <type2>Pole</type2>
+    <type3>Ziarnojady</type3>
+  </bird>
+  <bird id="464">
+    <polishName>trznadel czubaty</polishName>
+    <latinName>Emberiza rustica</latinName>
+    <family>Trznadlowate</family>
+    <rarity>2</rarity>
+    <type1>Las</type1>
+    <type2>Pole</type2>
+    <type3>Ziarnojady</type3>
+  </bird>
+  <bird id="465">
+    <polishName>trznadel szarogłowy</polishName>
+    <latinName>Emberiza spodocephala</latinName>
+    <family>Trznadlowate</family>
+    <rarity>3</rarity>
+    <type1>Las</type1>
+    <type2>Ziarnojady</type2>
+  </bird>
+  <bird id="466">
+    <polishName>trznadel czarnogłowy</polishName>
+    <latinName>Emberiza melanocephala</latinName>
+    <family>Trznadlowate</family>
+    <rarity>2</rarity>
+    <type1>Pole</type1>
+    <type2>Las</type2>
+    <type3>Ziarnojady</type3>
+  </bird>
+  <bird id="467">
+    <polishName>trznadel rudogłowy</polishName>
+    <latinName>Emberiza bruniceps</latinName>
+    <family>Trznadlowate</family>
+    <rarity>3</rarity>
+    <type1>Pole</type1>
+    <type2>Las</type2>
+    <type3>Ziarnojady</type3>
+  </bird>
+  <bird id="468">
+    <polishName>potrzeszcz</polishName>
+    <latinName>Emberiza calandra</latinName>
+    <family>Trznadlowate</family>
+    <rarity>0</rarity>
+    <type1>Pole</type1>
+    <type2>Ziarnojady</type2>
+  </bird>
+  <bird id="469">
+    <polishName>głuszek</polishName>
+    <latinName>Emberiza cia</latinName>
+    <family>Trznadlowate</family>
+    <rarity>3</rarity>
+    <type1>Góry</type1>
+    <type2>Ziarnojady</type2>
+  </bird>
+  <bird id="470">
+    <polishName>ortolan</polishName>
+    <latinName>Emberiza hortulana</latinName>
+    <family>Trznadlowate</family>
+    <rarity>0</rarity>
+    <type1>Pole</type1>
+    <type2>Las</type2>
+    <type3>Ziarnojady</type3>
+  </bird>
+  <bird id="471">
+    <polishName>cierlik</polishName>
+    <latinName>Emberiza cirlus</latinName>
+    <family>Trznadlowate</family>
+    <rarity>3</rarity>
+    <type1>Las</type1>
+    <type2>Pole</type2>
+    <type3>Ziarnojady</type3>
+  </bird>
+  <bird id="472">
+    <polishName>trznadel białogłowy</polishName>
+    <latinName>Emberiza leucocephalos</latinName>
+    <family>Trznadlowate</family>
+    <rarity>3</rarity>
+    <type1>Las</type1>
+    <type2>Ziarnojady</type2>
+  </bird>
+  <bird id="473">
+    <polishName>trznadel</polishName>
+    <latinName>Emberiza citrinella</latinName>
+    <family>Trznadlowate</family>
+    <rarity>0</rarity>
+    <type1>Pole</type1>
+    <type2>Las</type2>
+    <type3>Ziarnojady</type3>
+  </bird>
+  <bird id="474">
+    <polishName>junko</polishName>
+    <latinName>Junco hyemalis</latinName>
+    <family>Bagiennikowate</family>
+    <rarity>3</rarity>
+    <type1>Las</type1>
+    <type2>Ziarnojady</type2>
+  </bird>
+  <bird id="475">
+    <polishName>bagiennik żółtobrewy</polishName>
+    <latinName>Passerculus sandwichensis</latinName>
+    <family>Bagiennikowate</family>
+    <rarity>3</rarity>
+    <type1>Pole</type1>
+    <type2>Bagno</type2>
+    <type3>Ziarnojady</type3>
+  </bird>
+</birds>
