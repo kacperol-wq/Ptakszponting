@@ -7,12 +7,20 @@ const searchInput = document.getElementById('searchInput');
 const resetButton = document.getElementById('resetButton');
 const birdCounter = document.getElementById('birdCounter');
 
+const STORAGE_CURRENT_PROFILE = 'pokedexCurrentProfile';
 const STORAGE_FOUND = 'pokedexFoundState';
 const STORAGE_IMAGES = 'pokedexCustomImages';
 const STORAGE_SORT = 'pokedexSortState';
 const STORAGE_FILTER = 'pokedexFilterState';
 const STORAGE_PAGINATION = 'pokedexPagination';
 const LOAD_MORE_INCREMENT = 50;
+
+let currentProfile = 'profile1';
+
+function getProfileKey(baseKey) {
+  return `${baseKey}_${currentProfile}`;
+}
+
 
 const rarityOrder = {
   'R1': 0,
@@ -101,10 +109,15 @@ async function loadImagesFromDB() {
     const store = tx.objectStore('birdImages');
     const result = {};
     const request = store.openCursor();
+    const prefix = `${currentProfile}_`;
     request.onsuccess = event => {
       const cursor = event.target.result;
       if (cursor) {
-        result[cursor.key] = cursor.value;
+        const key = cursor.key;
+        if (typeof key === 'string' && key.startsWith(prefix)) {
+          const birdId = key.slice(prefix.length);
+          result[birdId] = cursor.value;
+        }
         cursor.continue();
       } else {
         resolve(result);
@@ -120,7 +133,8 @@ async function saveImageToDB(birdId, dataUrl) {
   return new Promise((resolve, reject) => {
     const tx = db.transaction('birdImages', 'readwrite');
     const store = tx.objectStore('birdImages');
-    const request = store.put(dataUrl, birdId);
+    const profileKey = `${currentProfile}_${birdId}`;
+    const request = store.put(dataUrl, profileKey);
     request.onsuccess = () => resolve();
     request.onerror = () => reject(request.error);
   });
@@ -261,11 +275,15 @@ async function initializeApp() {
 }
 
 async function loadState() {
-  const storedFound = localStorage.getItem(STORAGE_FOUND);
-  const storedImages = localStorage.getItem(STORAGE_IMAGES);
-  const storedSort = localStorage.getItem(STORAGE_SORT);
-  const storedFilter = localStorage.getItem(STORAGE_FILTER);
-  const storedPagination = localStorage.getItem(STORAGE_PAGINATION);
+  // Load current profile
+  currentProfile = localStorage.getItem(STORAGE_CURRENT_PROFILE) || 'profile1';
+
+  // Load profile-specific data
+  const storedFound = localStorage.getItem(getProfileKey(STORAGE_FOUND));
+  const storedImages = localStorage.getItem(getProfileKey(STORAGE_IMAGES));
+  const storedSort = localStorage.getItem(getProfileKey(STORAGE_SORT));
+  const storedFilter = localStorage.getItem(getProfileKey(STORAGE_FILTER));
+  const storedPagination = localStorage.getItem(getProfileKey(STORAGE_PAGINATION));
 
   foundState = storedFound ? JSON.parse(storedFound) : {};
   try {
@@ -303,14 +321,17 @@ async function loadState() {
 }
 
 async function saveState() {
+  // Save current profile
+  localStorage.setItem(STORAGE_CURRENT_PROFILE, currentProfile);
+
   try {
-    localStorage.setItem(STORAGE_FOUND, JSON.stringify(foundState));
+    localStorage.setItem(getProfileKey(STORAGE_FOUND), JSON.stringify(foundState));
   } catch (error) {
     console.warn('Nie udało się zapisać stanu znalezionych ptaków:', error);
   }
 
   try {
-    localStorage.setItem(STORAGE_IMAGES, JSON.stringify(customImages));
+    localStorage.setItem(getProfileKey(STORAGE_IMAGES), JSON.stringify(customImages));
   } catch (error) {
     console.warn('Nie udało się zapisać obrazów w localStorage:', error);
   }
@@ -326,7 +347,7 @@ async function saveState() {
   }
 
   try {
-    localStorage.setItem(STORAGE_SORT, JSON.stringify({
+    localStorage.setItem(getProfileKey(STORAGE_SORT), JSON.stringify({
       primary: sortPrimary.value,
       secondary: sortSecondary.value,
       primaryDir: sortPrimaryDir ? sortPrimaryDir.value : 'asc',
@@ -337,7 +358,7 @@ async function saveState() {
   }
 
   try {
-    localStorage.setItem(STORAGE_FILTER, JSON.stringify({
+    localStorage.setItem(getProfileKey(STORAGE_FILTER), JSON.stringify({
       family: filterFamily.value,
       type: filterType.value,
       search: searchInput.value.trim().toLowerCase()
@@ -346,7 +367,7 @@ async function saveState() {
     console.warn('Nie udało się zapisać filtrów:', error);
   }
   try {
-    localStorage.setItem(STORAGE_PAGINATION, JSON.stringify({ itemsToShow }));
+    localStorage.setItem(getProfileKey(STORAGE_PAGINATION), JSON.stringify({ itemsToShow }));
   } catch (e) {
     console.warn('Nie udało się zapisać paginacji:', e);
   }

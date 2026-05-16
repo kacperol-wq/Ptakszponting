@@ -286,6 +286,34 @@ body {
   min-width: 160px;
 }
 
+.profile-selector {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.profile-selector label {
+  font-weight: 700;
+  color: var(--text);
+  white-space: nowrap;
+}
+
+.profile-selector select {
+  min-height: 44px;
+  padding: 0 14px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: #f8fbff;
+  color: var(--text);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.profile-selector select:hover {
+  background: #eef7ff;
+}
+
+
 .bird-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(240px, 1fr));

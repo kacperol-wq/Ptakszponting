@@ -1,6 +1,14 @@
 const statsList = document.getElementById('statsList');
 const overallCounter = document.getElementById('overallCounter');
+const profileSelect = document.getElementById('profileSelect');
+const STORAGE_CURRENT_PROFILE = 'pokedexCurrentProfile';
 const STORAGE_FOUND = 'pokedexFoundState';
+
+let currentProfile = 'profile1';
+
+function getProfileKey(baseKey) {
+  return `${baseKey}_${currentProfile}`;
+}
 
 const typeClassMap = {
   woda: 'type-water',
@@ -49,7 +57,7 @@ async function loadBirdData() {
 
 function loadFoundState() {
   try {
-    const storedFound = localStorage.getItem(STORAGE_FOUND);
+    const storedFound = localStorage.getItem(getProfileKey(STORAGE_FOUND));
     return storedFound ? JSON.parse(storedFound) : {};
   } catch (e) {
     console.warn('Nie udało się załadować stanu znalezionych ptaków:', e);
@@ -170,7 +178,7 @@ function updateOverallCounter(birds, foundState) {
   overallCounter.textContent = `Znaleziono ${found} z ${total} ptaków w bazie`; 
 }
 
-async function initializeStatsPage() {
+async function reloadStatsPage() {
   const birds = await loadBirdData();
   const foundState = loadFoundState();
   const stats = buildTypeStatistics(birds, foundState);
@@ -178,6 +186,23 @@ async function initializeStatsPage() {
   renderStatistics(stats);
   const rarityStats = buildRarityStatistics(birds, foundState);
   renderRarityStatistics(rarityStats);
+}
+
+async function initializeStatsPage() {
+  // Load current profile
+  currentProfile = localStorage.getItem(STORAGE_CURRENT_PROFILE) || 'profile1';
+  
+  // Set profile selector value
+  if (profileSelect) {
+    profileSelect.value = currentProfile;
+    profileSelect.addEventListener('change', async (e) => {
+      currentProfile = e.target.value;
+      localStorage.setItem(STORAGE_CURRENT_PROFILE, currentProfile);
+      await reloadStatsPage();
+    });
+  }
+
+  await reloadStatsPage();
 }
 
 initializeStatsPage();
