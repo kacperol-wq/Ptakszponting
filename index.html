@@ -14,46 +14,72 @@
         <h1>Wyszponcone</h1>
         <p class="hero-subtitle">Ptakszponting Kacpra</p>
       </div>
+      <a class="page-action-link" href="stats.html" title="Statystyki znalezionych ptaków" aria-label="Statystyki">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path fill="currentColor" d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+        </svg>
+      </a>
     </header>
+
+    <div class="counter-display-top">
+      <span id="birdCounter">0 / 0 znalezionych</span>
+    </div>
 
     <main class="container">
     <section class="controls-panel">
-      <div class="control-group">
-        <label for="sortPrimary">Sortuj główne:</label>
-        <select id="sortPrimary">
-          <option value="polishName">Nazwa</option>
-          <option value="family">Rodzina</option>
-          <option value="rarity">Rzadkość</option>
-        </select>
+      <div class="control-row">
+        <div class="control-group search-group">
+          <label for="searchInput">Szukaj nazwy:</label>
+          <input id="searchInput" type="search" placeholder="np. jerzyk" />
+        </div>
+        <div class="control-group">
+          <button id="advancedToggle" class="button-secondary">Zaawansowane wyszukiwanie</button>
+        </div>
       </div>
-      <div class="control-group">
-        <label for="sortSecondary">Sortuj drugie:</label>
-        <select id="sortSecondary">
-          <option value="none">Brak</option>
-          <option value="polishName">Nazwa</option>
-          <option value="family">Rodzina</option>
-          <option value="rarity">Rzadkość</option>
-        </select>
-      </div>
-      <div class="control-group">
-        <label for="filterFamily">Filtr rodziny:</label>
-        <select id="filterFamily">
-          <option value="all">Wszystkie</option>
-        </select>
-      </div>
-      <div class="control-group">
-        <label for="filterType">Filtr typu:</label>
-        <select id="filterType">
-          <option value="all">Wszystkie</option>
-        </select>
-      </div>
-      <div class="control-group">
-        <label for="searchInput">Szukaj nazwy:</label>
-        <input id="searchInput" type="search" placeholder="np. jerzyk" />
-      </div>
-      <button id="resetButton" class="button-secondary">Resetuj stan znalezionych</button>
-      <div class="counter-display" aria-live="polite">
-        <span id="birdCounter">0 / 0 znalezionych</span>
+
+      <div class="advanced-controls" aria-hidden="true">
+        <div class="control-group">
+          <label for="sortPrimary">Sortuj główne:</label>
+          <select id="sortPrimary">
+            <option value="polishName">Nazwa</option>
+            <option value="family">Rodzina</option>
+            <option value="rarity">Rzadkość</option>
+          </select>
+          <label for="sortPrimaryDir">Porządek:</label>
+          <select id="sortPrimaryDir">
+            <option value="asc">Rosnąco</option>
+            <option value="desc">Malejąco</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label for="sortSecondary">Sortuj drugie:</label>
+          <select id="sortSecondary">
+            <option value="none">Brak</option>
+            <option value="polishName">Nazwa</option>
+            <option value="family">Rodzina</option>
+            <option value="rarity">Rzadkość</option>
+          </select>
+          <label for="sortSecondaryDir">Porządek:</label>
+          <select id="sortSecondaryDir">
+            <option value="asc">Rosnąco</option>
+            <option value="desc">Malejąco</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label for="filterFamily">Filtr rodziny:</label>
+          <select id="filterFamily">
+            <option value="all">Wszystkie</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label for="filterType">Filtr typu:</label>
+          <select id="filterType">
+            <option value="all">Wszystkie</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <button id="resetButton" class="button-secondary">Resetuj stan znalezionych</button>
+        </div>
       </div>
     </section>
 

@@ -15,11 +15,14 @@ const STORAGE_PAGINATION = 'pokedexPagination';
 const LOAD_MORE_INCREMENT = 50;
 
 const rarityOrder = {
-  'bardzo rzadki': 0,
-  'rzadki': 1,
-  'regularny przelotny': 2,
-  'średnio rzadki': 3,
-  'pospolity': 4
+  'R1': 0,
+  'R2': 1,
+  'R3': 2,
+  'R4': 3,
+  'R5': 4,
+  'R6': 5,
+  'R7': 6,
+  'R8': 7
 };
 
 const typeClassMap = {
@@ -42,6 +45,9 @@ function getTypeClass(type) {
     .replace(/[^a-z0-9]/g, '');
   return typeClassMap[stripped] || Object.entries(typeClassMap).find(([key]) => stripped.includes(key))?.[1] || 'type-default';
 }
+
+const sortPrimaryDir = document.getElementById('sortPrimaryDir');
+const sortSecondaryDir = document.getElementById('sortSecondaryDir');
 
 let birds = [];
 let baseBirds = [];
@@ -279,6 +285,8 @@ async function loadState() {
     const sortState = JSON.parse(storedSort);
     sortPrimary.value = sortState.primary || 'polishName';
     sortSecondary.value = sortState.secondary || 'none';
+    if (sortState.primaryDir && sortPrimaryDir) sortPrimaryDir.value = sortState.primaryDir;
+    if (sortState.secondaryDir && sortSecondaryDir) sortSecondaryDir.value = sortState.secondaryDir;
   }
 
   if (storedFilter) {
@@ -320,7 +328,9 @@ async function saveState() {
   try {
     localStorage.setItem(STORAGE_SORT, JSON.stringify({
       primary: sortPrimary.value,
-      secondary: sortSecondary.value
+      secondary: sortSecondary.value,
+      primaryDir: sortPrimaryDir ? sortPrimaryDir.value : 'asc',
+      secondaryDir: sortSecondaryDir ? sortSecondaryDir.value : 'asc'
     }));
   } catch (error) {
     console.warn('Nie udało się zapisać ustawień sortowania:', error);
@@ -375,6 +385,8 @@ function applySavedControls() {
 function addEventListeners() {
   sortPrimary.addEventListener('change', onControlChange);
   sortSecondary.addEventListener('change', onControlChange);
+  if (sortPrimaryDir) sortPrimaryDir.addEventListener('change', onControlChange);
+  if (sortSecondaryDir) sortSecondaryDir.addEventListener('change', onControlChange);
   filterFamily.addEventListener('change', onControlChange);
   filterType.addEventListener('change', onControlChange);
   const debounced = debounce(() => { itemsToShow = LOAD_MORE_INCREMENT; onControlChange(); }, 200);
@@ -388,6 +400,17 @@ function addEventListeners() {
     });
   }
   resetButton.addEventListener('click', resetFoundState);
+
+  // Advanced search toggle
+  const advancedToggle = document.getElementById('advancedToggle');
+  const advancedControls = document.querySelector('.advanced-controls');
+  if (advancedToggle && advancedControls) {
+    advancedToggle.addEventListener('click', () => {
+      const hidden = advancedControls.getAttribute('aria-hidden') === 'true';
+      advancedControls.setAttribute('aria-hidden', String(!hidden));
+      advancedToggle.classList.toggle('active', !hidden);
+    });
+  }
 }
 
 function assembleBirdList() {
@@ -413,6 +436,8 @@ function getFilteredAndSortedBirds() {
   const typeFilter = filterType.value;
   const primaryField = sortPrimary.value || 'polishName';
   const secondaryField = sortSecondary.value || 'none';
+  const primaryDir = sortPrimaryDir ? (sortPrimaryDir.value === 'asc' ? 1 : -1) : 1;
+  const secondaryDir = sortSecondaryDir ? (sortSecondaryDir.value === 'asc' ? 1 : -1) : 1;
 
   let list = birds.slice();
 
@@ -440,11 +465,11 @@ function getFilteredAndSortedBirds() {
   // Stable sort copy
   list = list.map(b => ({ ...b }));
   list.sort((a, b) => {
-    const comparePrimary = compareBirds(a, b, primaryField);
+    const comparePrimary = compareBirds(a, b, primaryField) * primaryDir;
     if (comparePrimary !== 0 || secondaryField === 'none') {
       return comparePrimary;
     }
-    const compareSecondary = compareBirds(a, b, secondaryField);
+    const compareSecondary = compareBirds(a, b, secondaryField) * secondaryDir;
     if (compareSecondary !== 0) return compareSecondary;
     return compareBirds(a, b, 'polishName');
   });
@@ -516,7 +541,7 @@ function renderBirds() {
         </div>
         <div class="card-actions">
           <label class="file-upload">
-            Dodaj własne zdjęcie:
+            <span>Wybierz zdjęcie</span>
             <input type="file" accept="image/png,image/jpeg,image/jpg,image/webp,image/*" data-bird-id="${bird.id}" />
           </label>
           <button class="found-button" type="button" data-bird-id="${bird.id}" ${isFound ? 'disabled' : ''}>

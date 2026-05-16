@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Statystyki ptaków</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="pokedex-shell">
+    <header class="hero">
+      <div class="hero-top">
+        <span class="pokedex-label">STATYSTYKI</span>
+        <h1>Statystyki znalezionych ptaków</h1>
+        <p class="hero-subtitle">Przegląd liczby znalezionych ptaków w każdej kategorii typu.</p>
+      </div>
+      <a class="page-action-link" href="index.html" title="Powrót do listy ptaków">←</a>
+    </header>
+
+    <main class="container">
+      <section class="controls-panel">
+        <div class="counter-display" aria-live="polite">
+          <span id="overallCounter">Ładowanie statystyk...</span>
+        </div>
+      </section>
+
+      <section id="statsList" class="statistics-list" aria-live="polite"></section>
+
+      <h2 class="section-title">Statystyki według rzadkości</h2>
+      <section id="rarityStats" class="statistics-list" aria-live="polite"></section>
+    </main>
+  </div>
+
+  <script src="stats.js"></script>
+</body>
+</html>
