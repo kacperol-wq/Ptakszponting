@@ -333,6 +333,16 @@ body {
   border-color: var(--accent-dark, #4a90e2);
 }
 
+.load-more-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 28px 0 12px;
+}
+
+.load-more-wrapper button {
+  min-width: 240px;
+}
+
 .found-button {
   width: 100%;
   min-height: 56px;

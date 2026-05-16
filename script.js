@@ -12,6 +12,7 @@ const STORAGE_IMAGES = 'pokedexCustomImages';
 const STORAGE_SORT = 'pokedexSortState';
 const STORAGE_FILTER = 'pokedexFilterState';
 const STORAGE_PAGINATION = 'pokedexPagination';
+const LOAD_MORE_INCREMENT = 50;
 
 const rarityOrder = {
   'bardzo rzadki': 0,
@@ -47,8 +48,7 @@ let baseBirds = [];
 let foundState = {};
 let customImages = {};
 let savedFilterState = {};
-let currentPage = 1;
-let perPage = 25;
+let itemsToShow = LOAD_MORE_INCREMENT;
 let fuse = null;
 let useFuse = true;
 
@@ -287,8 +287,7 @@ async function loadState() {
   if (storedPagination) {
     try {
       const p = JSON.parse(storedPagination);
-      currentPage = p.page || currentPage;
-      perPage = p.perPage || perPage;
+      itemsToShow = p.itemsToShow || itemsToShow;
     } catch (e) {
       // ignore
     }
@@ -337,7 +336,7 @@ async function saveState() {
     console.warn('Nie udało się zapisać filtrów:', error);
   }
   try {
-    localStorage.setItem(STORAGE_PAGINATION, JSON.stringify({ page: currentPage, perPage }));
+    localStorage.setItem(STORAGE_PAGINATION, JSON.stringify({ itemsToShow }));
   } catch (e) {
     console.warn('Nie udało się zapisać paginacji:', e);
   }
@@ -378,14 +377,12 @@ function addEventListeners() {
   sortSecondary.addEventListener('change', onControlChange);
   filterFamily.addEventListener('change', onControlChange);
   filterType.addEventListener('change', onControlChange);
-  const debounced = debounce(() => { currentPage = 1; onControlChange(); }, 200);
+  const debounced = debounce(() => { itemsToShow = LOAD_MORE_INCREMENT; onControlChange(); }, 200);
   searchInput.addEventListener('input', debounced);
-  const perPageSelect = document.getElementById('perPageSelect');
-  if (perPageSelect) {
-    perPageSelect.value = String(perPage);
-    perPageSelect.addEventListener('change', () => {
-      perPage = parseInt(perPageSelect.value, 10) || 25;
-      currentPage = 1;
+  const loadMoreButton = document.getElementById('loadMoreButton');
+  if (loadMoreButton) {
+    loadMoreButton.addEventListener('click', () => {
+      itemsToShow += LOAD_MORE_INCREMENT;
       saveState();
       renderBirds();
     });
@@ -398,12 +395,14 @@ function assembleBirdList() {
 }
 
 function onControlChange() {
+  itemsToShow = LOAD_MORE_INCREMENT;
   saveState();
   renderBirds();
 }
 
 function resetFoundState() {
   foundState = {};
+  itemsToShow = LOAD_MORE_INCREMENT;
   saveState();
   renderBirds();
 }
@@ -453,13 +452,11 @@ function getFilteredAndSortedBirds() {
   return list;
 }
 
-function getPagedBirds(page = 1, per = perPage) {
+function getVisibleBirds(count = itemsToShow) {
   const all = getFilteredAndSortedBirds();
   const total = all.length;
-  const start = (page - 1) * per;
-  const end = Math.min(start + per, total);
-  const pageItems = all.slice(start, end);
-  return { pageItems, total, start, end };
+  const visible = all.slice(0, Math.min(count, total));
+  return { visible, total };
 }
 
 function compareBirds(a, b, field) {
@@ -478,18 +475,18 @@ function compareBirds(a, b, field) {
 
 function renderBirds() {
   birdList.innerHTML = '';
-  const { pageItems, total } = getPagedBirds(currentPage, perPage);
+  const { visible, total } = getVisibleBirds();
   updateBirdCounter(total);
 
   if (!total) {
     const empty = document.createElement('p');
     empty.textContent = 'Brak ptaków dla wybranych filtrów.';
     birdList.append(empty);
-    renderPagination(total);
+    renderLoadMore(total);
     return;
   }
 
-  pageItems.forEach(bird => {
+  visible.forEach(bird => {
     const isFound = Boolean(foundState[bird.id]);
     const currentImage = customImages[bird.id] || bird.image || '';
     const imageBlock = currentImage
@@ -538,7 +535,7 @@ function renderBirds() {
     birdList.append(card);
   });
 
-  renderPagination(total);
+  renderLoadMore(total);
 }
 
 function handleImageUpload(event, birdId) {
@@ -588,36 +585,16 @@ function updateBirdCounter(filteredTotal) {
   }
 }
 
-function renderPagination(totalItems) {
-  const container = document.getElementById('pagination');
-  if (!container) return;
-  container.innerHTML = '';
-  const pages = Math.max(1, Math.ceil(totalItems / perPage));
-  if (currentPage > pages) currentPage = pages;
-
-  const prev = document.createElement('button');
-  prev.textContent = '« Prev';
-  prev.disabled = currentPage <= 1;
-  prev.addEventListener('click', () => { currentPage = Math.max(1, currentPage - 1); saveState(); renderBirds(); });
-  container.append(prev);
-
-  // show a few pages around current
-  const range = 3;
-  const startPage = Math.max(1, currentPage - range);
-  const endPage = Math.min(pages, currentPage + range);
-  for (let i = startPage; i <= endPage; i++) {
-    const btn = document.createElement('button');
-    btn.textContent = String(i);
-    if (i === currentPage) btn.classList.add('active');
-    btn.addEventListener('click', () => { currentPage = i; saveState(); renderBirds(); });
-    container.append(btn);
+function renderLoadMore(totalItems) {
+  const button = document.getElementById('loadMoreButton');
+  if (!button) return;
+  if (totalItems <= itemsToShow) {
+    button.hidden = true;
+  } else {
+    button.hidden = false;
+    button.disabled = false;
+    button.textContent = 'Załaduj więcej';
   }
-
-  const next = document.createElement('button');
-  next.textContent = 'Next »';
-  next.disabled = currentPage >= pages;
-  next.addEventListener('click', () => { currentPage = Math.min(pages, currentPage + 1); saveState(); renderBirds(); });
-  container.append(next);
 }
 
 function debounce(fn, wait) {

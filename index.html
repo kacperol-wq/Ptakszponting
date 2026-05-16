@@ -55,21 +55,12 @@
       <div class="counter-display" aria-live="polite">
         <span id="birdCounter">0 / 0 znalezionych</span>
       </div>
-      <div class="pagination-controls">
-        <label>
-          Pokaż na stronie:
-          <select id="perPageSelect">
-            <option value="10">10</option>
-            <option value="25" selected>25</option>
-            <option value="50">50</option>
-            <option value="100">100</option>
-          </select>
-        </label>
-        <nav id="pagination" class="pagination" aria-label="Paginacja"></nav>
-      </div>
     </section>
 
     <section id="birdList" class="bird-grid" aria-live="polite"></section>
+    <div class="load-more-wrapper">
+      <button id="loadMoreButton" class="button-primary">Załaduj więcej</button>
+    </div>
   </main>
   </div>
 
