@@ -308,17 +308,30 @@ async function loadState() {
   // Load profile-specific data from IndexedDB
   const storedFound = await loadObjectFromDB('siteData', getProfileKey(STORAGE_FOUND));
   const localStoredFound = localStorage.getItem(getProfileKey(STORAGE_FOUND));
+  const legacyStoredFound = localStorage.getItem(STORAGE_FOUND);
   const dbImages = await loadImagesFromDB().catch(error => {
     console.warn('Nie udało się załadować obrazów z IndexedDB:', error);
     return {};
   });
   const localStoredImages = localStorage.getItem(getProfileKey(STORAGE_IMAGES));
+  const legacyStoredImages = localStorage.getItem(STORAGE_IMAGES);
 
+  let migratedFound = false;
   if (storedFound) {
     foundState = storedFound;
   } else if (localStoredFound) {
     try {
-      foundState = JSON.parse(localStoredFound);
+      foundState = JSON.parse(localStoredFound) || {};
+      await saveObjectToDB('siteData', getProfileKey(STORAGE_FOUND), foundState);
+      migratedFound = true;
+    } catch (e) {
+      foundState = {};
+    }
+  } else if (legacyStoredFound) {
+    try {
+      foundState = JSON.parse(legacyStoredFound) || {};
+      await saveObjectToDB('siteData', getProfileKey(STORAGE_FOUND), foundState);
+      migratedFound = true;
     } catch (e) {
       foundState = {};
     }
@@ -326,17 +339,47 @@ async function loadState() {
     foundState = {};
   }
 
+  if (migratedFound) {
+    localStorage.removeItem(getProfileKey(STORAGE_FOUND));
+    localStorage.removeItem(STORAGE_FOUND);
+  }
+
+  let migratedImages = false;
   if (dbImages && Object.keys(dbImages).length > 0) {
     customImages = dbImages;
   } else if (localStoredImages) {
     try {
-      customImages = JSON.parse(localStoredImages);
+      customImages = JSON.parse(localStoredImages) || {};
+      for (const [birdId, dataUrl] of Object.entries(customImages)) {
+        await saveImageToDB(birdId, dataUrl).catch(error => {
+          console.warn(`Nie udało się zapisać obraz ${birdId} w IndexedDB podczas migracji:`, error);
+        });
+      }
+      migratedImages = true;
+    } catch (e) {
+      customImages = {};
+    }
+  } else if (legacyStoredImages) {
+    try {
+      customImages = JSON.parse(legacyStoredImages) || {};
+      for (const [birdId, dataUrl] of Object.entries(customImages)) {
+        await saveImageToDB(birdId, dataUrl).catch(error => {
+          console.warn(`Nie udało się zapisać obraz ${birdId} w IndexedDB podczas migracji:`, error);
+        });
+      }
+      migratedImages = true;
     } catch (e) {
       customImages = {};
     }
   } else {
     customImages = {};
   }
+
+  if (migratedImages) {
+    localStorage.removeItem(getProfileKey(STORAGE_IMAGES));
+    localStorage.removeItem(STORAGE_IMAGES);
+  }
+
   assembleBirdList();
 
   const storedSort = localStorage.getItem(getProfileKey(STORAGE_SORT));

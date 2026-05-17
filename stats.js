@@ -55,10 +55,32 @@ async function loadBirdData() {
   }
 }
 
-function loadFoundState() {
+async function loadFoundState() {
   try {
-    const storedFound = localStorage.getItem(getProfileKey(STORAGE_FOUND));
-    return storedFound ? JSON.parse(storedFound) : {};
+    const storedFound = await loadObjectFromDB('siteData', getProfileKey(STORAGE_FOUND));
+    if (storedFound) {
+      return storedFound;
+    }
+
+    const localStoredFound = localStorage.getItem(getProfileKey(STORAGE_FOUND));
+    if (localStoredFound) {
+      try {
+        return JSON.parse(localStoredFound) || {};
+      } catch (e) {
+        console.warn('Nie udało się sparsować lokalnego stanu znalezionych ptaków dla profilu:', e);
+      }
+    }
+
+    const legacyStoredFound = localStorage.getItem(STORAGE_FOUND);
+    if (legacyStoredFound) {
+      try {
+        return JSON.parse(legacyStoredFound) || {};
+      } catch (e) {
+        console.warn('Nie udało się sparsować legacy stanu znalezionych ptaków:', e);
+      }
+    }
+
+    return {};
   } catch (e) {
     console.warn('Nie udało się załadować stanu znalezionych ptaków:', e);
     return {};
@@ -180,7 +202,7 @@ function updateOverallCounter(birds, foundState) {
 
 async function reloadStatsPage() {
   const birds = await loadBirdData();
-  const foundState = loadFoundState();
+  const foundState = await loadFoundState();
   const stats = buildTypeStatistics(birds, foundState);
   updateOverallCounter(birds, foundState);
   renderStatistics(stats);
