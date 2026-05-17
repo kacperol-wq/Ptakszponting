@@ -95,8 +95,35 @@ function openImagesDB() {
       if (!db.objectStoreNames.contains('birdImages')) {
         db.createObjectStore('birdImages');
       }
+      if (!db.objectStoreNames.contains('siteData')) {
+        db.createObjectStore('siteData');
+      }
     };
     request.onsuccess = event => resolve(event.target.result);
+    request.onerror = () => reject(request.error);
+  });
+}
+
+async function loadObjectFromDB(storeName, key) {
+  const db = await openImagesDB();
+  if (!db) return null;
+  return new Promise((resolve, reject) => {
+    const tx = db.transaction(storeName, 'readonly');
+    const store = tx.objectStore(storeName);
+    const request = store.get(key);
+    request.onsuccess = event => resolve(event.target.result ?? null);
+    request.onerror = () => reject(request.error);
+  });
+}
+
+async function saveObjectToDB(storeName, key, value) {
+  const db = await openImagesDB();
+  if (!db) return;
+  return new Promise((resolve, reject) => {
+    const tx = db.transaction(storeName, 'readwrite');
+    const store = tx.objectStore(storeName);
+    const request = store.put(value, key);
+    request.onsuccess = () => resolve();
     request.onerror = () => reject(request.error);
   });
 }
@@ -278,26 +305,43 @@ async function loadState() {
   // Load current profile
   currentProfile = localStorage.getItem(STORAGE_CURRENT_PROFILE) || 'profile1';
 
-  // Load profile-specific data
-  const storedFound = localStorage.getItem(getProfileKey(STORAGE_FOUND));
-  const storedImages = localStorage.getItem(getProfileKey(STORAGE_IMAGES));
-  const storedSort = localStorage.getItem(getProfileKey(STORAGE_SORT));
-  const storedFilter = localStorage.getItem(getProfileKey(STORAGE_FILTER));
-  const storedPagination = localStorage.getItem(getProfileKey(STORAGE_PAGINATION));
-
-  foundState = storedFound ? JSON.parse(storedFound) : {};
-  try {
-    customImages = storedImages ? JSON.parse(storedImages) : {};
-  } catch (e) {
-    customImages = {};
-    console.warn('Nieprawidłowy format obrazów w localStorage:', e);
-  }
+  // Load profile-specific data from IndexedDB
+  const storedFound = await loadObjectFromDB('siteData', getProfileKey(STORAGE_FOUND));
+  const localStoredFound = localStorage.getItem(getProfileKey(STORAGE_FOUND));
   const dbImages = await loadImagesFromDB().catch(error => {
     console.warn('Nie udało się załadować obrazów z IndexedDB:', error);
     return {};
   });
-  customImages = { ...customImages, ...dbImages };
+  const localStoredImages = localStorage.getItem(getProfileKey(STORAGE_IMAGES));
+
+  if (storedFound) {
+    foundState = storedFound;
+  } else if (localStoredFound) {
+    try {
+      foundState = JSON.parse(localStoredFound);
+    } catch (e) {
+      foundState = {};
+    }
+  } else {
+    foundState = {};
+  }
+
+  if (dbImages && Object.keys(dbImages).length > 0) {
+    customImages = dbImages;
+  } else if (localStoredImages) {
+    try {
+      customImages = JSON.parse(localStoredImages);
+    } catch (e) {
+      customImages = {};
+    }
+  } else {
+    customImages = {};
+  }
   assembleBirdList();
+
+  const storedSort = localStorage.getItem(getProfileKey(STORAGE_SORT));
+  const storedFilter = localStorage.getItem(getProfileKey(STORAGE_FILTER));
+  const storedPagination = localStorage.getItem(getProfileKey(STORAGE_PAGINATION));
 
   if (storedSort) {
     const sortState = JSON.parse(storedSort);
@@ -325,21 +369,15 @@ async function saveState() {
   localStorage.setItem(STORAGE_CURRENT_PROFILE, currentProfile);
 
   try {
-    localStorage.setItem(getProfileKey(STORAGE_FOUND), JSON.stringify(foundState));
+    await saveObjectToDB('siteData', getProfileKey(STORAGE_FOUND), foundState);
   } catch (error) {
-    console.warn('Nie udało się zapisać stanu znalezionych ptaków:', error);
-  }
-
-  try {
-    localStorage.setItem(getProfileKey(STORAGE_IMAGES), JSON.stringify(customImages));
-  } catch (error) {
-    console.warn('Nie udało się zapisać obrazów w localStorage:', error);
+    console.warn('Nie udało się zapisać stanu znalezionych ptaków w IndexedDB:', error);
   }
 
   try {
     for (const [birdId, dataUrl] of Object.entries(customImages)) {
       await saveImageToDB(birdId, dataUrl).catch(error => {
-        console.warn(`Nie udało się zapisać obrazu ${birdId} w IndexedDB:`, error);
+        console.warn(`Nie udało się zapisać obraz ${birdId} w IndexedDB:`, error);
       });
     }
   } catch (e) {
